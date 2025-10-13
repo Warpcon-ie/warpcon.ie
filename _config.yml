@@ -140,8 +140,8 @@ ticketsOffers:
   # TODO: UPDATE DATES
   #validFrom: "2025-10-01T00:00"
   #validThrough: "2025-10-23T23:59"
-  validFrom: "TBD"
-  validThrough: "TBD"
+  validFrom: "?"
+  validThrough: "?"
   disabled: true
  -
   name: "Day Pass"
@@ -152,6 +152,12 @@ ticketsOffers:
   # buyButtonLink: "https://uccsocieties.ticketsolve.com/ticketbooth/shows/1173660198"
   buyButtonText: "Buy now!"
   ticketContentList: ["Admission to Warpcon convention","Access to CCG Tournaments", "Access to all boardgames and TTRPGs"]
+  # TODO: UPDATE DATES
+  #validFrom: "2025-10-01T00:00"
+  #validThrough: "2025-10-23T23:59"
+  validFrom: "?"
+  validThrough: "?"
+  disabled: true
 
 # Footer
 socialLinks:
