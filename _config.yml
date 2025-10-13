@@ -12,10 +12,10 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "Warpcon 36"
 email: "warpcondirector@gmail.com"
 description: "Warpcon 36 is the 36th annual gaming convention in UCC"
-# baseurl: "https://gregorioustechorious.github.io/warpcon.ie/"
+# baseurl: "https://warpcon-ie.github.io/warpcon.ie/"
 baseurl: "https://www.warpcon.ie"
 url: "https://www.warpcon.ie"
-# url: "https://gregorioustechorious.github.io/warpcon.ie/"
+# url: "https://warpcon-ie.github.io/warpcon.ie/"
 permalink: "/games/:title"
 
 # Organizer Info
@@ -32,10 +32,6 @@ twitterAccount: "@warpcon"
 socialImageSrcGooglePlus: "/img/seo/logos.png"
 socialImageSrcTwitter: "/img/seo/logos.png"
 socialImageSrcFacebook: "/img/seo/logos.png"
-
-# Documents
-# c4pUrl: "https://bit.ly/dfua-c4p"
-# c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 # Navigation
 navigationLinks:
@@ -56,14 +52,14 @@ rightNavigationButtons:
 #  - {link: "https://bit.ly/dfua-c4p", text: "Become a vendor"}
 
 # Hero Block
-heroImage: "hero.jpg"
+heroImage: "hero.jpg" # TODO: CHANGE TO NEW BANNER
 heroTitle: "Warpcon 36"
 eventDate: "January 30th - February 1st 2026"
 typeoutTextValues: '"", "TTRPGs", "CCGs", "Wargames", "UCC", "Cork"'
 typeoutFallback: ""
 heroButtons:
 # - {link: "/assets/mainhandbook.pdf", text: "Handbook"}
-#  - {permalink: "/#tickets", text: "Tickets"} # MAKE SURE TICKET LINK IS UPDATED
+- {permalink: "/#tickets", text: "Tickets"} # MAKE SURE TICKET LINK IS UPDATED
 
 #  - {link: "/#staff", text: "Staff Application"}
 #  - {link: "#", text: "Staff application", disabled: true}
@@ -79,12 +75,13 @@ aboutBlock:
  - {title: "LARPs",           image: "larps.jpg",       text: "All weekend, we will be hosting organized LARPs events."}
  - {title: "Wargames",        image: "wargames.jpg",    text: "On Saturday and Sunday, we will be hosting <a href='/assets/40k-2024.pdf'>Warhammer 40k</a> and <a href='/assets/BleedBowl-2024.pdf'>Bloodbowl</a>. As well as LOTR and smaller tournaments"}
  - {title: "Boardgames",      image: "boardgames.jpg",  text: "Many boardgames will be available for attendees to play at any time during the convention."}
- - {title: "Charity",         image: "charity.jpg",     text: "On Saturday night, we will be holding a charity auction in the New Bar, with proceeds going to Cork Children's hospital"}
+ # TODO: CHECK IF SAME CHARITY
+ #- {title: "Charity",         image: "charity.jpg",     text: "On Saturday night, we will be holding a charity auction in the New Bar, with proceeds going to Cork Children's hospital"}
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "350", specialCharacter: "+", info: "gamers", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of fun games and networking"}
+ - {count: "48", specialCharacter: "+", info: "hours", detail: "of fun games"}
 
  - {count: "12", specialCharacter: "", info: "rooms booked", detail: "packed full of games"}
 
@@ -135,15 +132,17 @@ ticketsOffers:
   name: "Weekend Pass"
   price: "€25"
   priceCurrency: "EUR"
-  # ticketsNumber: ""
   featured: true
+  # TODO: CHANGE THIS
   buyButtonLink: "https://uccsocieties.ticketsolve.com/ticketbooth/shows/1173660198"
   buyButtonText: "Buy now!"
-  additionalInfo: "Student Discount Available!"
   ticketContentList: ["Admission to Warpcon convention","Access to CCG Tournaments", "Access to all boardgames and TTRPGs"]
-  # validFrom: "2014-10-01T00:00"
-  # validThrough: "2014-10-23T23:59"
-  # disabled: true
+  # TODO: UPDATE DATES
+  #validFrom: "2025-10-01T00:00"
+  #validThrough: "2025-10-23T23:59"
+  validFrom: "TBD"
+  validThrough: "TBD"
+  disabled: true
  -
   name: "Day Pass"
   price: "€15"
@@ -152,7 +151,6 @@ ticketsOffers:
   featured: true
   # buyButtonLink: "https://uccsocieties.ticketsolve.com/ticketbooth/shows/1173660198"
   buyButtonText: "Buy now!"
-  additionalInfo: "Student Discount Available!"
   ticketContentList: ["Admission to Warpcon convention","Access to CCG Tournaments", "Access to all boardgames and TTRPGs"]
 
 # Footer
