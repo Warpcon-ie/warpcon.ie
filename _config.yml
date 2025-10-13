@@ -9,17 +9,14 @@ permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
-title: "Warpcon 35"
+title: "Warpcon 36"
 email: "warpcondirector@gmail.com"
-description: "Warpcon 35 is the 35th annual gaming convention in UCC"
+description: "Warpcon 36 is the 36th annual gaming convention in UCC"
 # baseurl: "https://gregorioustechorious.github.io/warpcon.ie/"
 baseurl: "https://www.warpcon.ie"
 url: "https://www.warpcon.ie"
 # url: "https://gregorioustechorious.github.io/warpcon.ie/"
 permalink: "/games/:title"
-# googleAnalyticsTrackingId: "UA-43643469-5"
-# googleAnalyticsSiteUrl: "gdg-x.github.io"
-# siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
 organizerName: "Warpcon"
@@ -45,11 +42,7 @@ navigationLinks:
   - {permalink: "/", text: "Home"}
   - {permalink: "/games/", text: "Games"}
   - {permalink: "/schedule", text: "Schedule"}
-  - {permalink: "/booklet.pdf", text: "Booklet"}
-#  - {permalink: "/speakers/", text: "Speakers"}
-#  - {permalink: "/team/", text: "Team"}
-#  - {permalink: "/logistics/", text: "Logistics"}
-#  - {permalink: "/hackathon/", text: "Hackathon"}
+  # - {permalink: "/booklet.pdf", text: "Booklet"}
 
 # bottomNavigationLinks:
 #  - {link: "https://docs.google.com/forms/d/e/1FAIpQLSds7_XGjjyr1WuwuL3QSxhhg1R97B132o_IrN-EuleW2JrMsA/viewform?usp=sf_link", text: "Become a trader"}
@@ -64,13 +57,14 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "Warpcon 35"
-eventDate: "January 31st - February 2nd, 2025"
+heroTitle: "Warpcon 36"
+eventDate: "January 30th - February 1st 2026"
 typeoutTextValues: '"", "TTRPGs", "CCGs", "Wargames", "UCC", "Cork"'
 typeoutFallback: ""
 heroButtons:
 # - {link: "/assets/mainhandbook.pdf", text: "Handbook"}
- - {permalink: "/#tickets", text: "Tickets"}
+#  - {permalink: "/#tickets", text: "Tickets"} # MAKE SURE TICKET LINK IS UPDATED
+
 #  - {link: "/#staff", text: "Staff Application"}
 #  - {link: "#", text: "Staff application", disabled: true}
 #  - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdW3TUd-WJG05cU-E4ebJN2YebRrKga6oix7W74uRJx01YAXQ/viewform?usp=sf_link", text: "Trader application"}
@@ -91,17 +85,11 @@ statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "350", specialCharacter: "+", info: "gamers", detail: "from everywhere"}
  - {count: "48", specialCharacter: "+", info: "hours", detail: "of fun games and networking"}
-#  - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
+
  - {count: "12", specialCharacter: "", info: "rooms booked", detail: "packed full of games"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
-
-# Rockstar Speakers Block
-# rockstarSpeakersImage: "rockstar-speakers.jpg"
-# rockstarSpeakersCount: 4
-# rockstarSpeakersTitle: "Rockstar speakers"
-# rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
@@ -112,9 +100,9 @@ eventAddressLocality: "Cork City"
 eventAddressLocalityRegion: "Cork"
 eventPostalCode: "79000"
 eventAddressCountry: "Ireland"
-eventStartTime: "2025-01-31T17:00"
-eventDoorTime: "17:00"
-eventEndTime: "2025-02-02T18:00"
+# eventStartTime: "2025-01-31T17:00"
+# eventDoorTime: "17:00"
+# eventEndTime: "2025-02-02T18:00"
 eventPlaceCoordinates: "49.843237, 24.028751"
 mapCenterCoordinates: "49.842537, 24.025701"
 mapMobileCenterCoordinates: "49.841620, 24.029411"
@@ -138,11 +126,6 @@ organizersTitle: "Organizers"
 partnersTitle: "Partners"
 partnersC4sponsorsButton: "Become a sponsor"
 
-# Subscribe Block
-# subscribeImage: "subscribe.jpg"
-# subscribeTitle: "Subscribe for updates"
-# subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-# subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
 # Tickets Block
 ticketsTitle: "Pricetable"
@@ -167,7 +150,7 @@ ticketsOffers:
   # ribbon: "Ribbon Text"
   priceCurrency: "EUR"
   featured: true
-  buyButtonLink: "https://uccsocieties.ticketsolve.com/ticketbooth/shows/1173660198"
+  # buyButtonLink: "https://uccsocieties.ticketsolve.com/ticketbooth/shows/1173660198"
   buyButtonText: "Buy now!"
   additionalInfo: "Student Discount Available!"
   ticketContentList: ["Admission to Warpcon convention","Access to CCG Tournaments", "Access to all boardgames and TTRPGs"]
