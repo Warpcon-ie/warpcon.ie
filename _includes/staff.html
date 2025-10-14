@@ -8,19 +8,22 @@
                 Staff
             </h3>
             <p>
-                Staff at Warpcon help ensure events run smoothly, and are a vital part of the Warpcon team.
+                {{ staffInfo.header }}
             </p>
 
             <p>
-                Staff are volunteers, and are not paid for their work, however; they do
-                gain access to the event for free and will receive an exclusive Staff
-                Warpcon T-Shirt. Staff are also eligible for complementary lunch on days
-                they are working.
+                {{ staffInfo.bodyText }}
             </p>
 
-            <a href="https://docs.google.com/forms/d/1KhoActAW8zzslC1KFQuKiYyo42BUJtRlk04_5cEwYb0/viewform?edit_requested=true" class="btn btn-primary waves-effect waves-button">
+            {% if staffInfo.disabled != true %}
+            <a href="{{ staffInfo.link }}" class="btn btn-primary waves-effect waves-button">
                 Staff Form
             </a>
+            { % else % }
+            <a href="" class="btn btn-primary waves-effect waves-button">
+                Staff Form
+            </a>
+            { % endif % }
         </div>
     </div>
 
