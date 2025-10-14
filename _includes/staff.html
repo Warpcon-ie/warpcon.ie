@@ -8,14 +8,14 @@
                 Staff
             </h3>
             <p>
-                {{ staffInfo.header }}
+                {{ site.staffInfo.header }}
             </p>
 
             <p>
-                {{ staffInfo.bodyText }}
+                {{ site.staffInfo.bodyText }}
             </p>
 
-            {% if staffInfo.disabled != true %}
+            {% if site.staffInfo.disabled != true %}
             <a href="{{ staffInfo.link }}" class="btn btn-primary waves-effect waves-button">
                 Staff Form
             </a>
