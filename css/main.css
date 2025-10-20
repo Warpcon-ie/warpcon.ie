@@ -32,6 +32,7 @@
     --body__txt: var(--txt-black);   /* General text colour */
 
     --overlay__bg--94: var(--fae-light-green);    /* Header background */
+    --nav__txt--114: var(--bg-cream);                   /* Nav text (when at top of home screen */
 
     --primary__btn: var(--banner-purple);    /* Background of top hero button, stats text and venue background */
     --disabled__btn: var(--fae-lavender);   /* Disabled fallback for tickets and staff form */
@@ -152,8 +153,6 @@
 	--icon__defaultElement--111: #ce352c;
 	--icon__defaultElement--112: #ef7c02;
 	--top__box__shadow--113: rgba(255, 255, 255, 0.15);
-	--nav__txt--114: #cfcfcf;
-	--top__txt--115: rgba(0, 0, 0, 0.8);
 	--pricing__bg--118: #4d4d4d;
 	--footer__border__top--119: #e7e7e7;
 	--post__txt--121: #656565;
@@ -1882,7 +1881,7 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    color: var(--body__bg);
+    color: var(--body__txt);
     background-color: var(--text__txt--12);
     border-color: var(--btn__border--47)
 }
@@ -3764,7 +3763,7 @@ nav li a:hover {
 
 .top-header.after-scroll nav li a.current,
 .top-header.after-scroll nav li a:hover {
-    color: var(--top__txt--115)
+    color: var(--body__txt)
 }
 
 .right-nav-button {
