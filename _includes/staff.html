@@ -7,13 +7,9 @@
             <h3>
                 Staff
             </h3>
-            <p>
-                {{ site.staffInfo.header }}
-            </p>
+            <h4>{{ site.staffInfo.header }}</h4>
 
-            <p>
-                {{ site.staffInfo.bodyText }}
-            </p>
+            <p>{{ site.staffInfo.bodyText }}</p>
 
             {% if site.staffInfo.disabled != true %}
             <a href="{{ staffInfo.link }}" class="btn btn-primary waves-effect waves-button">

@@ -64,13 +64,12 @@ heroButtons:
 # About Block
 aboutTitle: "About Warpcon"
 aboutBlock:
- - {title: "RPGs",          image: "ttrpgs.jpg",      text: "Many RPGs on Friday, Saturday and Sunday."}
+ - {title: "RPGs",          image: "ttrpgs.jpg",      text: "Many RPGs on Friday, Saturday and Sunday. <a href='https://forms.gle/TG4D5ZxwCaQ26CQk6'>Please sign up for RPG Submissions!</a>"}
  - {title: "CCGs",            image: "ccgs.jpg",        text: "Magic the Gathering, Pokémon, Yu-Gi-Oh and Lorcana events and tournaments"}
  - {title: "LARPs",           image: "larps.jpg",       text: "All weekend, we will be hosting organized LARPs events."}
  - {title: "Wargames",        image: "wargames.jpg",    text: "On Saturday and Sunday, we will be hosting <a href='/assets/40k-2024.pdf'>Warhammer 40k</a> and <a href='/assets/BleedBowl-2024.pdf'>Bloodbowl</a>. As well as LOTR and smaller tournaments"}
  - {title: "Boardgames",      image: "boardgames.jpg",  text: "Many boardgames will be available for attendees to play at any time during the convention."}
- # TODO: CHECK IF SAME CHARITY
- #- {title: "Charity",         image: "charity.jpg",     text: "On Saturday night, we will be holding a charity auction in the New Bar, with proceeds going to Cork Children's hospital"}
+ - {title: "Charity",         image: "charity.jpg",     text: "On Saturday night, we will be holding a charity auction in the New Bar, with proceeds going to Cork Children's hospital"}
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:

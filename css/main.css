@@ -2,9 +2,27 @@
 /* following :root block added by css color collector */
 :root {
 
+    /*
+
+    My attempt to make sense of the horrible CSS.
+
+    Will be slowly replacing relevant elements with readable and maintainable variables
+
+    Please continue to use these naming conventions
+
+    */
     --fae-purple: #660C79;
-    --fae-dark-green: #17AF5A;
-    --fae-lavender: #BE96E8;
+    --fae-lavender: #E895FF;
+    --fae-green: #15AC59;
+    --fae-light-green: #CBF0CE;
+    --bg-cream: #FEFFEC;
+
+    --btn-light-bg: --fae-green;
+    --btn-dark-bg: --fae-lavender;
+
+    --a-txt: #03a9f4;
+    --a-txt-hover: #05bcf8;
+    --a-text-prev: #0275a8;
 
 	--mark__bg--1: #ff0;
 	--mark__txt--2: #000;
@@ -136,16 +154,6 @@
 	--ribbon__border__right--128: #db4437;
 	--ribbon__border__right--129: #72e1b3;
 	--modal__defaultElement--130: #212121;
-}
-
-:root {
-  --primary-bg-color: #1e90ff;
-  --primary-color: #ffffff;
-  --primary-link-color: #000000;
-  --warpcon-purple: #74148F;
-  --warpcon-lavender: #BE8AE5;
-  --warpcon-green: #1CB05C;
-  --warpcon-orange: #D58116;
 }
 
 html {
