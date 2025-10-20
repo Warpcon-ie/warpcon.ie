@@ -11,26 +11,40 @@
     Please continue to use these naming conventions
 
     */
+
+
+    /* General colours for theme */
     --fae-purple: #660C79;
     --fae-lavender: #E895FF;
     --fae-green: #15AC59;
     --fae-light-green: #CBF0CE;
     --bg-cream: #FEFFEC;
 
-    --btn-light-bg: --fae-green;
-    --btn-dark-bg: --fae-lavender;
+    /* Button variables */
+    --btn-light-bg: var(--fae-green);
+    --btn-dark-bg: var(--fae-lavender);
 
+    /* Link variables */
     --a-txt: #03a9f4;
     --a-txt-hover: #05bcf8;
+    --a-txt-focus: #0275a8;
     --a-text-prev: #0275a8;
 
+    /* Edited template variables */
+    --body__bg--5: #fff;    /* General background */
+    --body__txt--4: #333;   /* General text colour */
+
+    --top__bg--116: #ffc400;    /* Background of top hero button, stats text and venue background */
+    --btn__bg--86: #4285f4;     /* Disabled fallback for tickets (I think) */
+
+    --a__txt--6: #03a9f4;   /* General link text colour */
+	--a__txt--7: #0275a8;   /* General link focus colour */
+    --a__txt--77: #60ccfd;  /* Also link focus colour? */
+
+    /* Template variables (this is so long and idk how much is useless */
 	--mark__bg--1: #ff0;
 	--mark__txt--2: #000;
 	--fieldset__border--3: #c0c0c0;
-	--body__txt--4: #333;
-	--body__bg--5: #fff;
-	--a__txt--6: #03a9f4;
-	--a__txt--7: #0275a8;
 	--img__border--8: #ddd;
 	--hr__border__top--9: #eee;
 	--h1__txt--10: #777;
@@ -100,7 +114,6 @@
 	--waves__bg--74: rgba(255, 255, 255, 0.5);
 	--waves__box__shadow--75: rgba(0, 0, 0, 0.12);
 	--body__txt__shadow--76: rgba(0, 0, 0, 0.004);
-	--a__txt--77: #60ccfd;
 	--unicodeSelector__bg--78: #21aa29;
 	--unicodeSelector__bg--79: #2159d6;
 	--unicodeSelector__bg--80: #d62408;
@@ -109,7 +122,6 @@
 	--unicodeSelector__bg--83: #102c6b;
 	--unicodeSelector__bg--84: #6b1204;
 	--unicodeSelector__bg--85: #7f6700;
-	--btn__bg--86: #4285f4;
 	--btn__bg--87: #3266d5;
 	--bordered__txt--88: rgba(255, 255, 255, 0.6);
 	--bordered__txt--89: rgba(51, 51, 51, 0.6);
@@ -139,7 +151,6 @@
 	--top__box__shadow--113: rgba(255, 255, 255, 0.15);
 	--nav__txt--114: #cfcfcf;
 	--top__txt--115: rgba(0, 0, 0, 0.8);
-	--top__bg--116: #ffc400;
 	--pricing__bg--117: #f2f2f2;
 	--pricing__bg--118: #4d4d4d;
 	--footer__border__top--119: #e7e7e7;
