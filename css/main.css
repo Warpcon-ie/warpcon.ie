@@ -14,32 +14,38 @@
 
 
     /* General colours for theme */
-    --fae-purple: #660C79;
+    --bg-cream: #FEFFEC;
+    --txt-black: #000;
+    
     --fae-lavender: #E895FF;
     --fae-green: #15AC59;
     --fae-light-green: #CBF0CE;
-    --bg-cream: #FEFFEC;
 
-    /* Button variables */
-    --btn-light-bg: var(--fae-green);
-    --btn-dark-bg: var(--fae-lavender);
-
-    /* Link variables */
-    --a-txt: #03a9f4;
-    --a-txt-hover: #05bcf8;
-    --a-txt-focus: #0275a8;
-    --a-text-prev: #0275a8;
+    --warps-logo-pink: #C2417Cff;
+    --warps-logo-blue: #85E0CAff;
+    --banner-orange: #C98734ff;
+    --banner-brown: #634E3Aff;
+    --banner-purple: #854CAFff;
 
     /* Edited template variables */
-    --body__bg--5: #fff;    /* General background */
-    --body__txt--4: #333;   /* General text colour */
+    --body__bg: var(--bg-cream);    /* General background */
+    --body__txt: var(--txt-black);   /* General text colour */
 
-    --top__bg--116: #ffc400;    /* Background of top hero button, stats text and venue background */
-    --btn__bg--86: #4285f4;     /* Disabled fallback for tickets (I think) */
+    --overlay__bg--94: var(--fae-light-green);    /* Header background */
 
-    --a__txt--6: #03a9f4;   /* General link text colour */
-	--a__txt--7: #0275a8;   /* General link focus colour */
-    --a__txt--77: #60ccfd;  /* Also link focus colour? */
+    --primary__btn: var(--banner-purple);    /* Background of top hero button, stats text and venue background */
+    --disabled__btn: var(--fae-lavender);   /* Disabled fallback for tickets and staff form */
+
+    --primary__a: var(--banner-purple);  /* General link text colour */
+	--focus__a__1: var(--fae-lavender); /* General link focus colour */
+    --focus__a__2: var(--fae-lavender); /* Heading link focus colour? */
+
+    --statistics__bg: var(--fae-light-green); /* Statistics background */
+
+    --pricing__bg--117: var(--fae-green); /* Tickets header */
+
+    --footer__bg: var(--fae-light-green); /* Footer background */
+    --footer__a: #8b8b8b; /* Footer link text */
 
     /* Template variables (this is so long and idk how much is useless */
 	--mark__bg--1: #ff0;
@@ -128,12 +134,9 @@
 	--image__box__shadow--90: rgba(0, 0, 0, 0.75);
 	--card__box__shadow--91: rgba(0, 0, 0, 0.06);
 	--card__box__shadow--92: rgba(0, 0, 0, 0.15);
-	--overlay__bg--93: rgba(37, 32, 31, 0.8);
-	--overlay__bg--94: rgba(255, 255, 255, 0.9);
 	--overlay__bg--95: rgba(0, 0, 0, 0.32);
 	--overlay__bg--96: rgba(0, 0, 0, 0);
 	--overlay__bg--97: rgba(0, 0, 0, 0.64);
-	--icon__defaultElement--98: #8b8b8b;
 	--icon__defaultElement--99: #4c75a3;
 	--icon__defaultElement--100: #f99638;
 	--icon__defaultElement--101: #ba620b;
@@ -151,10 +154,8 @@
 	--top__box__shadow--113: rgba(255, 255, 255, 0.15);
 	--nav__txt--114: #cfcfcf;
 	--top__txt--115: rgba(0, 0, 0, 0.8);
-	--pricing__bg--117: #f2f2f2;
 	--pricing__bg--118: #4d4d4d;
 	--footer__border__top--119: #e7e7e7;
-	--footer__bg--120: #fcfcfc;
 	--post__txt--121: #656565;
 	--map__txt--122: #717171;
 	--direction__txt--123: #757575;
@@ -407,8 +408,8 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857;
-    color: var(--body__txt--4);
-    background-color: var(--body__bg--5)
+    color: var(--body__txt);
+    background-color: var(--body__bg)
 }
 
 input,
@@ -421,13 +422,13 @@ textarea {
 }
 
 a {
-    color: var(--a__txt--6);
+    color: var(--primary__a);
     text-decoration: none
 }
 
 a:hover,
 a:focus {
-    color: var(--a__txt--7);
+    color: var(--focus__a__1);
     text-decoration: underline
 }
 
@@ -458,7 +459,7 @@ img {
 .img-thumbnail {
     padding: 4px;
     line-height: 1.42857;
-    background-color: var(--body__bg--5);
+    background-color: var(--body__bg);
     border: 1px solid var(--img__border--8);
     border-radius: 4px;
     -webkit-transition: all 0.2s ease-in-out;
@@ -726,7 +727,7 @@ a.text-danger:hover {
 }
 
 .bg-primary {
-    color: var(--body__bg--5)
+    color: var(--body__bg)
 }
 
 .bg-primary {
@@ -923,8 +924,8 @@ code {
 kbd {
     padding: 2px 4px;
     font-size: 90%;
-    color: var(--body__bg--5);
-    background-color: var(--body__txt--4);
+    color: var(--body__bg);
+    background-color: var(--body__txt);
     border-radius: 3px;
     -webkit-box-shadow: inset 0 -1px 0 var(--kbd__box__shadow--31);
     box-shadow: inset 0 -1px 0 var(--kbd__box__shadow--31)
@@ -946,7 +947,7 @@ pre {
     line-height: 1.42857;
     word-break: break-all;
     word-wrap: break-word;
-    color: var(--body__txt--4);
+    color: var(--body__txt);
     background-color: var(--pre__bg--32);
     border: 1px solid var(--pre__border--33);
     border-radius: 4px
@@ -1302,7 +1303,7 @@ legend {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: inherit;
-    color: var(--body__txt--4);
+    color: var(--body__txt);
     border: 0;
     border-bottom: 1px solid var(--legend__border__bottom--34)
 }
@@ -1364,7 +1365,7 @@ output {
     font-size: 14px;
     line-height: 1.42857;
     color: var(--output__txt--35);
-    background-color: var(--body__bg--5);
+    background-color: var(--body__bg);
     background-image: none;
     border: 1px solid var(--pre__border--33);
     border-radius: 4px;
@@ -1807,7 +1808,7 @@ select[multiple].input-lg {
 .btn:hover,
 .btn:focus,
 .btn.focus {
-    color: var(--body__txt--4);
+    color: var(--body__txt);
     text-decoration: none
 }
 
@@ -1831,8 +1832,8 @@ fieldset[disabled] .btn {
 }
 
 .btn-default {
-    color: var(--body__txt--4);
-    background-color: var(--body__bg--5);
+    color: var(--body__txt);
+    background-color: var(--body__bg);
     border-color: var(--pre__border--33)
 }
 
@@ -1842,7 +1843,7 @@ fieldset[disabled] .btn {
 .btn-default:active,
 .btn-default.active,
 .open>.btn-default.dropdown-toggle {
-    color: var(--body__txt--4);
+    color: var(--body__txt);
     background-color: var(--btn__bg--45);
     border-color: var(--btn__border--46)
 }
@@ -1871,17 +1872,17 @@ fieldset[disabled] .btn-default:focus,
 fieldset[disabled] .btn-default.focus,
 fieldset[disabled] .btn-default:active,
 fieldset[disabled] .btn-default.active {
-    background-color: var(--body__bg--5);
+    background-color: var(--body__bg);
     border-color: var(--pre__border--33)
 }
 
 .btn-default .badge {
-    color: var(--body__bg--5);
-    background-color: var(--body__txt--4)
+    color: var(--body__bg);
+    background-color: var(--body__txt)
 }
 
 .btn-primary {
-    color: var(--body__bg--5);
+    color: var(--body__bg);
     background-color: var(--text__txt--12);
     border-color: var(--btn__border--47)
 }
@@ -1892,7 +1893,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open>.btn-primary.dropdown-toggle {
-    color: var(--body__bg--5);
+    color: var(--body__bg);
     background-color: var(--a__txt--13);
     border-color: var(--btn__border--48)
 }
@@ -1927,11 +1928,11 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-primary .badge {
     color: var(--text__txt--12);
-    background-color: var(--body__bg--5)
+    background-color: var(--body__bg)
 }
 
 .btn-success {
-    color: var(--body__bg--5);
+    color: var(--body__bg);
     background-color: var(--btn__bg--49);
     border-color: var(--btn__border--50)
 }
@@ -1942,7 +1943,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success:active,
 .btn-success.active,
 .open>.btn-success.dropdown-toggle {
-    color: var(--body__bg--5);
+    color: var(--body__bg);
     background-color: var(--btn__bg--51);
     border-color: var(--btn__border--52)
 }
@@ -1977,11 +1978,11 @@ fieldset[disabled] .btn-success.active {
 
 .btn-success .badge {
     color: var(--btn__bg--49);
-    background-color: var(--body__bg--5)
+    background-color: var(--body__bg)
 }
 
 .btn-info {
-    color: var(--body__bg--5);
+    color: var(--body__bg);
     background-color: var(--btn__bg--53);
     border-color: var(--btn__border--54)
 }
@@ -1992,7 +1993,7 @@ fieldset[disabled] .btn-success.active {
 .btn-info:active,
 .btn-info.active,
 .open>.btn-info.dropdown-toggle {
-    color: var(--body__bg--5);
+    color: var(--body__bg);
     background-color: var(--btn__bg--55);
     border-color: var(--btn__border--56)
 }
@@ -2027,11 +2028,11 @@ fieldset[disabled] .btn-info.active {
 
 .btn-info .badge {
     color: var(--btn__bg--53);
-    background-color: var(--body__bg--5)
+    background-color: var(--body__bg)
 }
 
 .btn-warning {
-    color: var(--body__bg--5);
+    color: var(--body__bg);
     background-color: var(--btn__bg--57);
     border-color: var(--btn__border--58)
 }
@@ -2042,7 +2043,7 @@ fieldset[disabled] .btn-info.active {
 .btn-warning:active,
 .btn-warning.active,
 .open>.btn-warning.dropdown-toggle {
-    color: var(--body__bg--5);
+    color: var(--body__bg);
     background-color: var(--btn__bg--59);
     border-color: var(--btn__border--60)
 }
@@ -2077,11 +2078,11 @@ fieldset[disabled] .btn-warning.active {
 
 .btn-warning .badge {
     color: var(--btn__bg--57);
-    background-color: var(--body__bg--5)
+    background-color: var(--body__bg)
 }
 
 .btn-danger {
-    color: var(--body__bg--5);
+    color: var(--body__bg);
     background-color: var(--btn__bg--61);
     border-color: var(--btn__border--62)
 }
@@ -2092,7 +2093,7 @@ fieldset[disabled] .btn-warning.active {
 .btn-danger:active,
 .btn-danger.active,
 .open>.btn-danger.dropdown-toggle {
-    color: var(--body__bg--5);
+    color: var(--body__bg);
     background-color: var(--btn__bg--63);
     border-color: var(--btn__border--64)
 }
@@ -2127,11 +2128,11 @@ fieldset[disabled] .btn-danger.active {
 
 .btn-danger .badge {
     color: var(--btn__bg--61);
-    background-color: var(--body__bg--5)
+    background-color: var(--body__bg)
 }
 
 .btn-link {
-    color: var(--a__txt--6);
+    color: var(--primary__a);
     font-weight: normal;
     border-radius: 0
 }
@@ -2155,7 +2156,7 @@ fieldset[disabled] .btn-link {
 
 .btn-link:hover,
 .btn-link:focus {
-    color: var(--a__txt--7);
+    color: var(--focus__a__1);
     text-decoration: underline;
     background-color: transparent
 }
@@ -2280,7 +2281,7 @@ tbody.collapse.in {
     padding: 4px;
     margin-bottom: 20px;
     line-height: 1.42857;
-    background-color: var(--body__bg--5);
+    background-color: var(--body__bg);
     border: 1px solid var(--img__border--8);
     border-radius: 4px;
     -webkit-transition: border 0.2s ease-in-out;
@@ -2298,13 +2299,13 @@ tbody.collapse.in {
 
 .thumbnail .caption {
     padding: 9px;
-    color: var(--body__txt--4)
+    color: var(--body__txt)
 }
 
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-    border-color: var(--a__txt--6)
+    border-color: var(--primary__a)
 }
 
 .media {
@@ -2400,7 +2401,7 @@ a.thumbnail.active {
     font-weight: bold;
     line-height: 1;
     color: var(--mark__txt--2);
-    text-shadow: 0 1px 0 var(--body__bg--5);
+    text-shadow: 0 1px 0 var(--body__bg);
     opacity: .2;
     filter: alpha(opacity=20)
 }
@@ -2466,7 +2467,7 @@ button.close {
 
 .modal-content {
     position: relative;
-    background-color: var(--body__bg--5);
+    background-color: var(--body__bg);
     border: 1px solid var(--form__txt--39);
     border: 1px solid var(--modal__border--66);
     border-radius: 6px;
@@ -2862,7 +2863,7 @@ button.close {
 .waves-circle {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    -webkit-mask-image: -webkit-radial-gradient(circle, var(--body__bg--5) 100%, var(--mark__txt--2) 100%)
+    -webkit-mask-image: -webkit-radial-gradient(circle, var(--body__bg) 100%, var(--mark__txt--2) 100%)
 }
 
 .waves-button,
@@ -2943,7 +2944,7 @@ html {
     font-weight: 300;
     width: 100%;
     height: 100%;
-    background: var(--body__bg--5);
+    background: var(--body__bg);
     text-shadow: 1px 1px 1px var(--body__txt__shadow--76);
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -2979,13 +2980,13 @@ strong {
 }
 
 a {
-    color: var(--a__txt--6)
+    color: var(--primary__a)
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: var(--a__txt--77)
+    color: var(--focus__a__2)
 }
 
 a:hover,
@@ -3081,7 +3082,7 @@ time {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: var(--body__bg--5)
+    background-color: var(--body__bg)
 }
 
 .loader-gplus {
@@ -3360,14 +3361,14 @@ time {
 }
 
 .btn-primary {
-    color: var(--body__bg--5) !important;
+    color: var(--body__bg) !important;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
     text-transform: uppercase;
     border: 0;
-    background: var(--btn__bg--86) !important
+    background: var(--disabled__btn) !important
 }
 
 .btn-primary:hover,
@@ -3375,7 +3376,7 @@ time {
 .btn-primary:active,
 .btn-primary.active {
     outline: none;
-    color: var(--body__bg--5);
+    color: var(--body__bg);
     background: var(--btn__bg--87)
 }
 
@@ -3403,12 +3404,12 @@ time {
 }
 
 .colored {
-    color: var(--btn__bg--86);
-    fill: var(--btn__bg--86)
+    color: var(--disabled__btn);
+    fill: var(--disabled__btn)
 }
 
 .image-section {
-    color: var(--body__bg--5);
+    color: var(--body__bg);
     font-weight: 100;
     background-repeat: no-repeat;
     background-position: center center !important;
@@ -3436,7 +3437,7 @@ time {
     margin-bottom: 10px;
     padding: 24px 24px 50px;
     border-radius: 4px;
-    background: var(--body__bg--5);
+    background: var(--body__bg);
     -webkit-box-shadow: 0 1px 7px var(--card__box__shadow--91), 0 1px 3px var(--card__box__shadow--92);
     box-shadow: 0 1px 7px var(--card__box__shadow--91), 0 1px 3px var(--card__box__shadow--92)
 }
@@ -3458,7 +3459,7 @@ time {
 }
 
 .overlay.solid-overlay {
-    background: var(--overlay__bg--93)
+    background: var(--statistics__bg)
 }
 
 .overlay.white-solid {
@@ -3595,7 +3596,7 @@ time {
     width: 16px;
     height: 16px;
     cursor: pointer;
-    fill: var(--icon__defaultElement--98);
+    fill: var(--footer__a);
     -webkit-transition: all .5s;
     transition: all .5s
 }
@@ -3748,7 +3749,7 @@ nav li a {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     text-transform: uppercase;
-    color: var(--body__bg--5)
+    color: var(--body__bg)
 }
 
 nav li a.current,
@@ -3841,12 +3842,12 @@ nav li a:hover {
 
 .top-section-hero .jumbotron .btn {
     margin: 0 3px;
-    background-color: var(--top__bg--116) !important
+    background-color: var(--primary__btn) !important
 }
 
 .top-section-hero .jumbotron .btn-primary {
     color: var(--mark__txt--2) !important;
-    background-color: var(--top__bg--116) !important
+    background-color: var(--primary__btn) !important
 }
 
 .typeout-fallback {
@@ -3936,7 +3937,7 @@ nav li a:hover {
     position: relative;
     min-height: 400px;
     padding-top: 0;
-    background: var(--a__txt--6)
+    background: var(--primary__a)
 }
 
 .top-section .gradient-overlay {
@@ -3951,7 +3952,7 @@ nav li a:hover {
     position: relative;
     left: 26px;
     margin: 200px 0 0 0;
-    color: var(--body__bg--5);
+    color: var(--body__bg);
     background: 0
 }
 
@@ -3965,7 +3966,7 @@ nav li a:hover {
 
 .statistic .stat {
     font-size: 100px;
-    color: var(--top__bg--116)
+    color: var(--primary__btn)
 }
 
 .statistic .stat-info {
@@ -3974,7 +3975,7 @@ nav li a:hover {
 
 .statistic hr {
     width: 45px;
-    border-top: 3px solid var(--top__bg--116) !important
+    border-top: 3px solid var(--primary__btn) !important
 }
 
 .statistic .small {
@@ -3994,7 +3995,7 @@ nav li a:hover {
 .rockstar-speakers .sub {
     font-size: 18.2px;
     margin: 0 0 15px;
-    color: var(--a__txt--6)
+    color: var(--primary__a)
 }
 
 .rockstar-speaker {
@@ -4029,11 +4030,11 @@ nav li a:hover {
 
 .pricing-col.pricing-col-featured:not(:first-child) {
     margin-left: 0;
-    border: solid 1px var(--top__bg--116)
+    border: solid 1px var(--primary__btn)
 }
 
 .pricing-col.pricing-col-featured .pricing-ribbon {
-    background: var(--btn__bg--86)
+    background: var(--disabled__btn)
 }
 
 .pricing-col.pricing-col-featured .title {
@@ -4042,7 +4043,7 @@ nav li a:hover {
 
 .pricing-col.pricing-col-featured .price {
     margin-bottom: 30px;
-    color: var(--btn__bg--86)
+    color: var(--disabled__btn)
 }
 
 .pricing-col.pricing-col-featured .pricing-content {
@@ -4051,7 +4052,7 @@ nav li a:hover {
 
 .pricing-col.pricing-col-featured .button {
     margin-top: 45px;
-    background: var(--btn__bg--86)
+    background: var(--disabled__btn)
 }
 
 .pricing-col.pricing-col-featured .button:hover {
@@ -4059,7 +4060,7 @@ nav li a:hover {
 }
 
 .pricing-col.pricing-col-featured .button.disabled:hover {
-    background: var(--btn__bg--86)
+    background: var(--disabled__btn)
 }
 
 .pricing-col .title {
@@ -4075,7 +4076,7 @@ nav li a:hover {
     padding: 26px 0;
     font-size: 65px;
     font-weight: 100;
-    color: var(--top__bg--116)
+    color: var(--primary__btn)
 }
 
 .pricing-col .currency {
@@ -4088,7 +4089,7 @@ nav li a:hover {
     margin-top: 30px;
     padding: 7px 25px 10px;
     color: var(--mark__txt--2);
-    background: var(--top__bg--116);
+    background: var(--primary__btn);
     font-weight: 100;
     text-decoration: none
 }
@@ -4098,7 +4099,7 @@ nav li a:hover {
 }
 
 .pricing-col .button.disabled:hover {
-    background: var(--body__txt--4)
+    background: var(--body__txt)
 }
 
 .pricing-col .button.fallback {
@@ -4113,8 +4114,8 @@ nav li a:hover {
     padding: 5px 50px;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    color: var(--body__bg--5);
-    background: var(--body__txt--4)
+    color: var(--body__bg);
+    background: var(--body__txt)
 }
 
 .pricing-content {
@@ -4139,11 +4140,11 @@ nav li a:hover {
 }
 
 #tickets .pricing-header>p.price {
-    color: var(--top__bg--116) !important
+    color: var(--primary__btn) !important
 }
 
 #tickets .pricing-content .btn-primary {
-    background: var(--top__bg--116) !important;
+    background: var(--primary__btn) !important;
     color: var(--mark__txt--2) !important
 }
 
@@ -4217,7 +4218,7 @@ nav li a:hover {
 .location-description {
     min-width: 400px;
     padding: 20px 50px;
-    background: var(--body__bg--5)
+    background: var(--body__bg)
 }
 
 .location-description .icon-direction {
@@ -4284,7 +4285,7 @@ nav li a:hover {
 .venue-text {
     padding: 30px 20px;
     color: var(--mark__txt--2);
-    background: var(--top__bg--116)
+    background: var(--primary__btn)
 }
 
 .venue-text h5 {
@@ -4302,7 +4303,7 @@ nav li a:hover {
 .twitter-feed .icon {
     width: 64px;
     height: 64px;
-    fill: var(--body__bg--5)
+    fill: var(--body__bg)
 }
 
 .tweets {
@@ -4398,7 +4399,7 @@ nav li a:hover {
 .footer {
     padding: 40px 52px 13px;
     border-top: 1px solid var(--footer__border__top--119);
-    background-color: var(--footer__bg--120)
+    background-color: var(--footer__bg)
 }
 
 .footer h5 {
@@ -4416,7 +4417,7 @@ nav li a:hover {
 }
 
 .footer a {
-    color: var(--icon__defaultElement--98)
+    color: var(--footer__a)
 }
 
 .footer a:hover {
@@ -4549,7 +4550,7 @@ nav li a:hover {
     position: absolute;
     top: -26px;
     left: 52px;
-    color: var(--body__bg--5)
+    color: var(--body__bg)
 }
 
 .map-card {
@@ -4564,7 +4565,7 @@ nav li a:hover {
     transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
     color: var(--map__txt--122);
     border-radius: 2px;
-    background: var(--body__bg--5);
+    background: var(--body__bg);
     -webkit-box-shadow: 1px 1px 2px var(--modal__border--66);
     box-shadow: 1px 1px 2px var(--modal__border--66)
 }
@@ -4627,7 +4628,7 @@ nav li a:hover {
 }
 
 .location-result .result-name {
-    color: var(--body__txt--4)
+    color: var(--body__txt)
 }
 
 .location-details {
@@ -4655,7 +4656,7 @@ nav li a:hover {
     font-weight: 400;
     line-height: 50px;
     text-transform: uppercase;
-    color: var(--body__txt--4);
+    color: var(--body__txt);
     border-bottom: 1px solid var(--footer__border__top--119)
 }
 
@@ -4667,12 +4668,12 @@ nav li a:hover {
     position: relative;
     top: 3px;
     margin-right: 7px;
-    fill: var(--body__txt--4)
+    fill: var(--body__txt)
 }
 
 .location-details select {
     margin-left: -5px;
-    color: var(--body__txt--4);
+    color: var(--body__txt);
     border: none;
     outline: none
 }
@@ -4825,7 +4826,7 @@ nav li a:hover {
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     color: var(--a__txt--125);
-    background: var(--body__bg--5)
+    background: var(--body__bg)
 }
 
 .zoe-effect figcaption h2 {
@@ -4840,7 +4841,7 @@ nav li a:hover {
     transform: translateY(-250%);
     -webkit-transition-delay: .05s;
     transition-delay: .05s;
-    color: var(--body__bg--5)
+    color: var(--body__bg)
 }
 
 .zoe-effect figcaption h2 span {
@@ -4885,7 +4886,7 @@ nav li a:hover {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 0;
-    color: var(--body__bg--5);
+    color: var(--body__bg);
     background: none;
     display: block;
     display: -webkit-box;
@@ -4952,7 +4953,7 @@ nav li a:hover {
     height: 50%;
     padding: 32px 16px;
     text-transform: uppercase;
-    color: var(--body__bg--5)
+    color: var(--body__bg)
 }
 
 .lily-effect figcaption h2 {
@@ -4998,8 +4999,8 @@ nav li a:hover {
     padding: 16px 14px 9px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    border-bottom: 2px solid var(--body__bg--5);
-    background: var(--body__bg--5)
+    border-bottom: 2px solid var(--body__bg);
+    background: var(--body__bg)
 }
 
 .lily-effect .lily-bottom h2 {
@@ -5082,7 +5083,7 @@ nav li a:hover {
     text-align: left;
     word-wrap: normal;
     color: var(--form__txt--39);
-    background-color: var(--body__bg--5);
+    background-color: var(--body__bg);
     -webkit-box-shadow: 0 0 20px var(--modal__border--66);
     box-shadow: 0 0 20px var(--modal__border--66)
 }
@@ -5336,7 +5337,7 @@ nav li a:hover {
     width: 140px;
     height: 140px;
     margin: 0 auto;
-    border: 3px solid var(--body__bg--5);
+    border: 3px solid var(--body__bg);
     -webkit-box-shadow: 0 3px 0 var(--card__box__shadow--92), 0 3px 4px var(--modal__border--66);
     box-shadow: 0 3px 0 var(--card__box__shadow--92), 0 3px 4px var(--modal__border--66)
 }
@@ -5386,7 +5387,7 @@ nav li a:hover {
 }
 
 .hackathon-location .hackathon-time time {
-    color: var(--a__txt--6)
+    color: var(--primary__a)
 }
 
 .hackathon-location .view-on-map {
@@ -5465,7 +5466,7 @@ nav li a:hover {
     }
 
     select {
-        background: var(--body__bg--5) !important
+        background: var(--body__bg) !important
     }
 
     .navbar {
@@ -5487,7 +5488,7 @@ nav li a:hover {
 
     .table td,
     .table th {
-        background-color: var(--body__bg--5) !important
+        background-color: var(--body__bg) !important
     }
 
     .table-bordered th,
@@ -6497,7 +6498,7 @@ nav li a:hover {
         height: 100%;
         -webkit-transition: all 0.5s;
         transition: all 0.5s;
-        background: var(--body__bg--5);
+        background: var(--body__bg);
         -webkit-transform: translateX(-100%);
         transform: translateX(-100%)
     }
@@ -6532,7 +6533,7 @@ nav li a:hover {
 
     nav li a.current,
     nav li a:hover {
-        color: var(--a__txt--6)
+        color: var(--primary__a)
     }
 
     .top-header.after-scroll nav li a {
@@ -6541,7 +6542,7 @@ nav li a:hover {
 
     .top-header.after-scroll nav li a.current,
     .top-header.after-scroll nav li a:hover {
-        color: var(--a__txt--6)
+        color: var(--primary__a)
     }
 
     .top-section-hero .jumbotron {
