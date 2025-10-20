@@ -41,7 +41,7 @@
 	--focus__a__1: var(--fae-lavender); /* General link focus colour */
     --focus__a__2: var(--fae-lavender); /* Heading link focus colour? */
 
-    --statistics__bg: var(--fae-light-green); /* Statistics background */
+    --statistics__bg: var(--fae-green); /* Statistics background */
 
     --pricing__bg--117: var(--fae-green); /* Tickets header */
 
@@ -3459,6 +3459,7 @@ time {
 
 .overlay.solid-overlay {
     background: var(--statistics__bg)
+
 }
 
 .overlay.white-solid {
