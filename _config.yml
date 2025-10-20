@@ -10,7 +10,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "Warpcon 36"
-email: "warpcondirector@gmail.com"
+email: "warpcon@gmail.com"
 description: "Warpcon 36 is the 36th annual gaming convention in UCC"
 # baseurl: "https://warpcon-ie.github.io/warpcon.ie/"
 baseurl: "https://www.warpcon.ie"
@@ -22,7 +22,7 @@ url: "https://www.warpcon.ie"
 organizerName: "Warpcon"
 organizerAlternateName: "Warpcon, an initiative by UCC Warps"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "warpcondirector@gmail.com"
+organizerEmail: "warpcon@gmail.com"
 organizerLogo: "/img/seo/logos.png"
 organizerLink: "https://facebook.com/WARPCON"
 
@@ -126,7 +126,7 @@ partnersC4sponsorsButton: "Become a sponsor"
 
 # Tickets Block
 ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets can also be purchased at the reception desk on the day. For college society group bookings, please contact us at <a href='mailto:warpcondirector@gmail.com'>warpcondirector@gmail.com</a>."
+ticketsInfo: "Tickets can also be purchased at the reception desk on the day. For college society group bookings, please contact us at <a href='mailto:warpcon@gmail.com'>warpcon@gmail.com</a>."
 ticketsOffers:
  -
   name: "Weekend Pass"
@@ -175,8 +175,11 @@ footerBlocks:
  -
   title: "Contacts"
   links:
-   - {link: "mailto:warpcondirector@gmail.com",   text: "warpcondirector@gmail.com"}
-   - {link: "mailto:warpconofficers@uccsocieties.ie",   text: "warpconofficers@uccsocieties.ie"}
+  - {link: "mailto:warpcon@gmail.com",   text: "warpcon@gmail.com"}
+  - {link: "mailto:warpconrpgs@gmail.com",   text: "warpconrpgs@gmail.com"}
+  - {link: "mailto:warpconccgs@gmail.com",   text: "warpconccgs@gmail.com"}
+   # - {link: "mailto:warpcondirector@gmail.com",   text: "warpcondirector@gmail.com"}
+   # - {link: "mailto:warpconofficers@uccsocieties.ie",   text: "warpconofficers@uccsocieties.ie"}
    # - {link: "mailto:warpcontrader@gmail.com",     text: "warpcontrader@gmail.com"}
    # - {link: "mailto:warpconsecretary@gmail.com",  text: "warpconsecretary@gmail.com"}
    # - {link: "mailto:warpconstaff@gmail.com",      text: "warpconstaff@gmail.com"}
