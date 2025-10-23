@@ -26,6 +26,8 @@ organizerEmail: "warpcon@gmail.com"
 organizerLogo: "/img/seo/logos.png"
 organizerLink: "https://facebook.com/WARPCON"
 
+# INDEX
+
 # Head
 metaKeywords: "convention, ttrpgs, ccgs, wargames, ucc, cork, dnd, cyberpunk, magic the gathering"
 twitterAccount: "@warpcon"
@@ -52,7 +54,7 @@ rightNavigationButtons:
 #  - {link: "https://bit.ly/dfua-c4p", text: "Become a vendor"}
 
 # Hero Block
-heroImage: "warpcon36-squirrel-banner.png" # TODO: Maybe change? Website is not dynamic so phone is fucked
+heroImage: "banner.png" # TODO: Maybe change? Website is not dynamic so phone is fucked
 heroTitle: "Warpcon 36"
 eventDate: "January 30th - February 1st 2026"
 typeoutTextValues: '"", "TTRPGs", "CCGs", "Wargames", "UCC", "Cork"'
