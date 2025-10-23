@@ -1,33 +1,32 @@
-# This crap uses ruby 2.7.2 and jekyll 3.9.2 - use rbenv and ruby-builder
+# Warpcon 36
 
-# Project Zeppelin / GDG DevFest 2014 site template
+## Intro
 
-### About
-Project Zeppelin allows you to setup awesome GDG DevFest site in 5 minutes.
+Warpcon is a gaming convention held at UCC. This README is for future Webmasters to understand the website.
+
+## Template
+
+This crap uses ruby 2.7.2 and jekyll 3.9.2 - use rbenv and ruby-builder
+
+### About the Template
+
+Uses template [Project Zeppelin](https://github.com/gdg-x/zeppelin). For future expansions/changes on the website, you may want to check out the original template for easy solutions.
 
 Project is built on top of [Jekyll](http://jekyllrb.com/) - simple, blog-aware, static site generator. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your website from GitHub’s servers for free. [Learn more about Jekyll](http://jekyllrb.com/).
 
-Template is brought by [GDG Lviv](http://lviv.gdg.org.ua/) team.
-
-### Live demo http://gdg-x.github.io/zeppelin/
+#### Demo of Template [here!](http://gdg-x.github.io/zeppelin/)
 
 #### Automated version with Grunt <https://github.com/gdg-x/zeppelin-grunt>
 
-### Features
-* Easy to setup
-* Simple and responsive design
-* Integrated speakers and sessions management
-* SVG icons
-* SEO friendly
-
 
 ### Quick-start guide
-1. [Fork](https://github.com/gdg-x/zeppelin/fork) this repo
+
+1. Create a new branch of this repo based on the previous year's Warpcon website.
 2. Clone locally
-3. Update ```_config.yml```
-4. Select what content blocks do you need
-5. Push changes to ```gh-pages``` branch
-6. Enjoy your awesome DevFest site at ```http://[your github name].github.io/zeppelin/```
+3. Update whatever you need.
+4. Push changes to your new branch.
+5. Update Warpcon's GitHub pages root to be the new branch.
+6. Deal with whatever unique pain comes from our hosting provider (but it will be on the GitHub pages site anyways)
 
 Or watch project presentation from [GDG[x] Townhall meeting](http://www.youtube.com/watch?v=xYmhheoLjcI). Slides available [here](https://docs.google.com/presentation/d/19aM7yNl_orDaCNND5LpCY3fShb6PyMltnzYfKvV8R_8/edit?usp=sharing)
 
