@@ -110,8 +110,8 @@ venueFeatures: ["12 rooms", "<b>Devere Hall</b> - Reception & Trader Hall", "Loc
 staffInfo:
   header: "Staff at Warpcon help ensure events run smoothly, and are a vital part of the Warpcon team."
   bodyText: "Staff are volunteers, and are not paid for their work, however; they do gain access to the event for free and will receive an exclusive Staff Warpcon T-Shirt. Staff are also eligible for complementary lunch on days they are working."
-  link: "https://docs.google.com/forms/d/1KhoActAW8zzslC1KFQuKiYyo42BUJtRlk04_5cEwYb0/viewform?edit_requested=true"
-  disabled: true
+  link: https://docs.google.com/forms/d/e/1FAIpQLSfYECBFfwOUHZbnk2l59UtM09q6NW9u4IxnQWswULvYkCTTAw/viewform?usp=sf_link
+  disabled: false
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
@@ -168,16 +168,19 @@ footerBlocks:
  -
   title: "Links"
   links:
-    - {link: "https://warpcon.eventbrite.ie",       text: "Eventbrite"}
-    - {link: "https://www.facebook.com/WARPCON/",   text: "Facebook"}
-    - {link: "https://www.instagram.com/warpconucc/",  text: "Instagram"}
+    - {link: "https://warpcon.eventbrite.ie",         text: "Eventbrite"}
+    - {link: "https://www.facebook.com/WARPCON/",     text: "Facebook"}
+    - {link: "https://www.instagram.com/warpconucc/", text: "Instagram"}
 
  -
   title: "Contacts"
   links:
-  - {link: "mailto:warpcon@gmail.com",   text: "warpcon@gmail.com"}
-  - {link: "mailto:warpconrpgs@gmail.com",   text: "warpconrpgs@gmail.com"}
-  - {link: "mailto:warpconccgs@gmail.com",   text: "warpconccgs@gmail.com"}
+  - {link: "mailto:warpcon@gmail.com",              text: "warpcon@gmail.com"}
+  - {link: "mailto:warpconrpgs@gmail.com",          text: "warpconrpgs@gmail.com"}
+  - {link: "mailto:warpconccgs@gmail.com",          text: "warpconccgs@gmail.com"}
+  - {link: "mailto:warpcontrade@uccsocieties.ie",   text: "warpcontrade@uccsocieties.ie"}
+
+  # Past emails. Left for redundancy
    # - {link: "mailto:warpcondirector@gmail.com",   text: "warpcondirector@gmail.com"}
    # - {link: "mailto:warpconofficers@uccsocieties.ie",   text: "warpconofficers@uccsocieties.ie"}
    # - {link: "mailto:warpcontrader@gmail.com",     text: "warpcontrader@gmail.com"}
