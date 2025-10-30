@@ -23,12 +23,12 @@ url: "https://www.warpcon.ie"
 # permalink: "/games/:title"
 
 # Organizer Info
-organizerName: "Warpcon"
-organizerAlternateName: "Warpcon, an initiative by UCC Warps"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "warpcon@gmail.com"
-organizerLogo: "/img/seo/logos.png"
-organizerLink: "https://facebook.com/WARPCON"
+# Likely useless
+# organizerName: "Warpcon"
+# organizerAlternateName: "Warpcon, an initiative by UCC Warps"
+# organizerEmail: "warpcon@gmail.com"
+# organizerLogo: "/img/seo/logos.png"
+# organizerLink: "https://facebook.com/WARPCON"
 
 # Head
 metaKeywords: "convention, ttrpgs, ccgs, wargames, ucc, cork, dnd, cyberpunk, magic the gathering"
@@ -43,6 +43,7 @@ navigationLinks:
   - {permalink: "/games/", text: "Games"}
   - {permalink: "/schedule", text: "Schedule"}
   # - {permalink: "/booklet.pdf", text: "Booklet"}
+  # - {permalink: "http://warpcon35.conmaps.com/", text: "Map"}
 
 # bottomNavigationLinks:
 #  - {link: "https://docs.google.com/forms/d/e/1FAIpQLSds7_XGjjyr1WuwuL3QSxhhg1R97B132o_IrN-EuleW2JrMsA/viewform?usp=sf_link", text: "Become a trader"}
@@ -56,7 +57,7 @@ rightNavigationButtons:
 #  - {link: "https://bit.ly/dfua-c4p", text: "Become a vendor"}
 
 # Hero Block
-heroImage: "warpcon36-squirrel-banner.png" # TODO: Maybe change? Website is not dynamic so phone is fucked
+heroImage: "banner.png" # TODO: Maybe change? Website is not dynamic so phone is fucked
 heroTitle: "Warpcon 36"
 eventDate: "January 30th - February 1st 2026"
 typeoutTextValues: '"", "TTRPGs", "CCGs", "Wargames", "UCC", "Cork"'
@@ -117,16 +118,10 @@ staffInfo:
   link: https://docs.google.com/forms/d/e/1FAIpQLSfYECBFfwOUHZbnk2l59UtM09q6NW9u4IxnQWswULvYkCTTAw/viewform?usp=sf_link
   disabled: false
 
-# Tweets Feed Block
-tweetsFeedImage: "twitter-feed.jpg"
-tweetsFeedTitle: "What's Up?"
-twitterHashTag: "warpcon"
-
 # Partners Block
 organizersTitle: "Organizers"
 partnersTitle: "Partners"
 partnersC4sponsorsButton: "Become a sponsor"
-
 
 # Tickets Block
 ticketsTitle: "Pricetable"

@@ -24,10 +24,6 @@ layout: compress
         </div>
     </div>
 
-    {% if page.modal != null %} 
-    	{% include speakers-modals.html %} 
-    {% endif %} 
-
     {% if page.permalink == '/schedule/' %}
         {% include sessions-modals.html %} 
     {% endif %} 
@@ -57,8 +53,6 @@ layout: compress
             });
         </script>
     {% endif %}
-
-    {% include schema-event.html %}
 </body>
 
 </html>
