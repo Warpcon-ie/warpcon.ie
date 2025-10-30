@@ -12,12 +12,12 @@
             <p>{{ site.staffInfo.bodyText }}</p>
 
             {% if site.staffInfo.disabled != true %}
-            <a href="{{ staffInfo.link }}" class="btn btn-primary waves-effect waves-button">
+            <a href="{{ site.staffInfo.link }}" class="btn btn-primary waves-effect waves-button">
                 Staff Form
             </a>
             {% else %}
-            <a href="" class="btn btn-primary waves-effect waves-button">
-                Staff Form
+            <a href="#" class="btn btn-primary waves-effect waves-button">
+                Staff Form (Not available yet)
             </a>
             {% endif %}
         </div>

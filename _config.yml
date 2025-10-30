@@ -1,21 +1,25 @@
 # Plugins
-gems:
+plugins:
 - jekyll-sitemap
 safe: false
 
 # Build Settings
 markdown: kramdown
 permalink: pretty
-exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+exclude: 
+  - /automation/
+  - README.md
+  - LICENSE.txt
+  - CNAME
 
 # Site Settings
 title: "Warpcon 36"
 email: "warpcon@gmail.com"
 description: "Warpcon 36 is the 36th annual gaming convention in UCC"
-# baseurl: "https://warpcon-ie.github.io/warpcon.ie/"
-baseurl: "https://www.warpcon.ie"
+
+# For local development
+baseurl: ""
 url: "https://www.warpcon.ie"
-# url: "https://warpcon-ie.github.io/warpcon.ie/"
 # permalink: "/games/:title"
 
 # Organizer Info
@@ -195,6 +199,3 @@ footerBlocks:
 blogTitle: "Latest news"
 blogCommentsEnabled: true
 discusShortName: ""
-
-# Speakers List Block
-showSessions: false

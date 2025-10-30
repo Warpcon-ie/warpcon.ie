@@ -3367,7 +3367,7 @@ time {
     user-select: none;
     text-transform: uppercase;
     border: 0;
-    background: var(--disabled__btn) !important
+    background: var(--primary__btn) !important
 }
 
 .btn-primary:hover,
