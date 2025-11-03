@@ -109,9 +109,10 @@ venueTitle: "UCC Campus"
 venueFeatures: ["12 rooms", "<b>Devere Hall</b> - Reception & Trader Hall", "Located upstairs in Student Centre"]
 
 # Sponsor Block
-sponsorTitle: "Sponsors"
+sponsorTitle: "Sponsored By"
 sponsorBlock:
- - {title: "Chaosium",          image: "chaosium.png"}
+ - {title: "Chaosium",    image: "chaosium.png",    website: "https://www.chaosium.com/"}
+ #- {title: "Placeholder", image: "chaosium.png",  website: "https://www.wikipedia.org/"}
 
 
 # Staff Block
@@ -128,11 +129,6 @@ traderInfo:
   # bodyText: ""
   # link: ?
   disabled: true
-
-# Partners Block (PROBABLY USELESS)
-# organizersTitle: "Organizers"
-# partnersTitle: "Partners"
-# partnersC4sponsorsButton: "Become a sponsor"
 
 # Tickets Block
 ticketsTitle: "Pricetable"

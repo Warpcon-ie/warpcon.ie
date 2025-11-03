@@ -1,6 +1,24 @@
 <!-- Sponsors Section -->
+<!-- Automatically checks if there is 1 sponsor so it can make it bigger -->
+{% if site.sponsorBlock.size == 1 %}
+{% assign sponsor = site.sponsorBlock[0] %}
+<section id="partners" class="partners">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3>{{ site.sponsorTitle }} {{ sponsor.title }}</h3>
+            <ul class="list-inline">
+                <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
+                    <a href="{{ sponsor.website }}" target="_blank">
+                        <img class="img-circle" src="{{ site.baseurl }}/img/sponsors-section/{{ sponsor.image }}" alt="{{ sponsor.title }}">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div> 
+</section>
+{% else %}
 <!-- Uses same styling as about-section -->
-<section id="about" class="about">
+<section id="partners" class="partners">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             <h3>{{ site.sponsorTitle }}</h3>
@@ -11,9 +29,13 @@
                 <div class="col-md-{{ colWidth }} col-xs-6">  
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                         <h5>{{ sponsor.title }}</h5>
-                        <div class="img-container">
-                            <img class="img-circle" src="{{ site.baseurl }}/img/sponsors-section/{{ sponsor.image }}" alt="{{ sponsor.title }}">
-                        </div>
+                        <ul class="list-inline">
+                            <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
+                                <a href="{{ sponsor.website }}" target="_blank">
+                                    <img class="img-circle" src="{{ site.baseurl }}/img/sponsors-section/{{ sponsor.image }}" alt="{{ sponsor.title }}">
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 {% assign animationDelay = animationDelay | plus:500 %}
@@ -24,4 +46,5 @@
         </div>
     </div>
 </section>
+{% endif %}
 <!-- End Sponsors Section -->

@@ -3626,10 +3626,6 @@ time {
     fill: var(--icon__defaultElement--104)
 }
 
-.icon-twitter:hover {
-    fill: var(--icon__defaultElement--105)
-}
-
 .icon-youtube:hover {
     fill: var(--icon__defaultElement--106)
 }
@@ -3987,32 +3983,6 @@ nav li a:hover {
     font-size: 15px
 }
 
-.latest-news .post {
-    margin-bottom: 40px
-}
-
-.rockstar-speakers .name {
-    font-size: 26px;
-    line-height: 1.1;
-    margin: 10px 0 2px
-}
-
-.rockstar-speakers .sub {
-    font-size: 18.2px;
-    margin: 0 0 15px;
-    color: var(--primary__a)
-}
-
-.rockstar-speaker {
-    padding-bottom: 13px
-}
-
-.rockstar-speaker-img {
-    width: 140px;
-    height: 140px;
-    margin: 0 auto
-}
-
 .pricing-col {
     overflow: hidden;
     margin-bottom: 26px;
@@ -4301,45 +4271,6 @@ nav li a:hover {
     font-size: 17px
 }
 
-.twitter-feed h3 {
-    margin-bottom: 10px
-}
-
-.twitter-feed .icon {
-    width: 64px;
-    height: 64px;
-    fill: var(--body__bg)
-}
-
-.tweets {
-    max-width: 850px;
-    margin: 0 auto
-}
-
-.tweet {
-    height: 130px;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s
-}
-
-.tweet.hidden-tweet {
-    opacity: 0;
-    -webkit-transform: translateY(180px);
-    transform: translateY(180px)
-}
-
-.tweet p {
-    font-weight: 100
-}
-
-.tweet-text {
-    font-size: 26px;
-    line-height: 1.3
-}
-
-.tweet-meta {
-    font-size: 20px
-}
 
 .partners h5 {
     margin-top: 30px
@@ -4359,34 +4290,13 @@ nav li a:hover {
     width: 100%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1)
-}
-
-.partners img:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0)
 }
 
-.subscribe .email,
-.subscribe .button {
-    width: 100%;
-    height: 53px;
-    margin-bottom: 16px;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s
-}
-
-.subscribe .email input,
-.subscribe .button input {
-    width: 100%;
-    height: 100%;
-    outline: none;
-    font-size: 16px
-}
-
-.subscribe .button input {
-    text-transform: uppercase
+.partners img:hover {
+    -webkit-filter: grayscale(0.5);
+    filter: grayscale(0.5)
 }
 
 .mc-field-group {
@@ -4395,10 +4305,6 @@ nav li a:hover {
 
 .mc-submit-group {
     padding-left: 3px
-}
-
-.subscribe-info {
-    font-weight: 100
 }
 
 .footer {
@@ -4545,17 +4451,6 @@ nav li a:hover {
 .st-content-meta td {
     font-size: 1.4em;
     padding: 0.125em 1em
-}
-
-.find-way {
-    min-height: 600px
-}
-
-.find-way h3 {
-    position: absolute;
-    top: -26px;
-    left: 52px;
-    color: var(--body__bg)
 }
 
 .map-card {
@@ -4734,15 +4629,6 @@ nav li a:hover {
 
 .list-with-description a {
     display: block
-}
-
-.team h3 {
-    margin-bottom: 26px
-}
-
-.team h4 {
-    margin: 50px 0 20px;
-    text-align: center
 }
 
 .zoe-effect {
@@ -5290,63 +5176,6 @@ nav li a:hover {
     text-align: left
 }
 
-.hackathon-row {
-    margin-bottom: 90px
-}
-
-.hackathon-row.float-right .hackathon-img-wrapper {
-    float: right
-}
-
-.hackathon-row.float-right .hackathon-details {
-    text-align: right;
-    margin-left: 0;
-    margin-right: 300px
-}
-
-.hackathon-img-wrapper {
-    float: left
-}
-
-.hackathon-img-wrapper img {
-    max-width: 250px;
-    margin: 0 auto
-}
-
-.hackathon-details {
-    text-align: left;
-    margin-left: 300px
-}
-
-.hackathon-details p {
-    font-size: 16px
-}
-
-.judge {
-    margin-bottom: 45px
-}
-
-.judge .name {
-    margin: 8px 0 4px;
-    font-size: 25px
-}
-
-.judge .company {
-    margin-top: 6px;
-    display: block;
-    font-size: 18px;
-    line-height: 1.1
-}
-
-.judge-img {
-    width: 140px;
-    height: 140px;
-    margin: 0 auto;
-    border: 3px solid var(--body__bg);
-    -webkit-box-shadow: 0 3px 0 var(--card__box__shadow--92), 0 3px 4px var(--modal__border--66);
-    box-shadow: 0 3px 0 var(--card__box__shadow--92), 0 3px 4px var(--modal__border--66)
-}
-
 .prizes h3 {
     margin-bottom: 20px
 }
@@ -5362,42 +5191,6 @@ nav li a:hover {
 .prize-img-wrapper img {
     max-width: 250px;
     margin: 0 auto
-}
-
-.hackathon-location {
-    padding: 20px 50px;
-    height: 450px
-}
-
-.hackathon-location .canvas-map {
-    height: 480px
-}
-
-.hackathon-location .location-description {
-    font-size: 15px;
-    padding: 18px 16px 22px;
-    overflow: hidden;
-    -webkit-box-shadow: 1px 1px 2px var(--modal__border--66);
-    box-shadow: 1px 1px 2px var(--modal__border--66)
-}
-
-.hackathon-location .location-name {
-    margin-top: 0;
-    font-size: 18px;
-    font-weight: 500
-}
-
-.hackathon-location .location-address {
-    margin: 0
-}
-
-.hackathon-location .hackathon-time time {
-    color: var(--primary__a)
-}
-
-.hackathon-location .view-on-map {
-    margin-top: 8px;
-    display: block
 }
 
 .notfound {
@@ -6591,19 +6384,6 @@ nav li a:hover {
         font-size: 70px
     }
 
-    .rockstar-speakers .name {
-        font-size: 20px
-    }
-
-    .rockstar-speakers .sub {
-        font-size: 16px
-    }
-
-    .rockstar-speaker-img {
-        width: 120px;
-        height: 120px
-    }
-
     .pricing-col {
         width: 100% !important;
         border: 1px var(--img__border--8) solid
@@ -6693,18 +6473,6 @@ nav li a:hover {
         line-height: 16px
     }
 
-    .tweet {
-        height: 180px
-    }
-
-    .tweet-text {
-        font-size: 24px
-    }
-
-    .tweet-meta {
-        font-size: 18px
-    }
-
     .partners .list-inline li {
         width: 40%;
         max-width: 160px
@@ -6724,20 +6492,6 @@ nav li a:hover {
 
     .post {
         margin-bottom: 26px
-    }
-
-    .find-way {
-        min-height: 500px;
-        padding: 0 10px
-    }
-
-    .find-way h3 {
-        top: 4px;
-        left: 0
-    }
-
-    .find-way.location-active .content-wrapper {
-        z-index: initial
     }
 
     .map-card {
@@ -6853,41 +6607,6 @@ nav li a:hover {
 
     .people-modal .people-details .social {
         text-align: center
-    }
-
-    .hackathon-row {
-        margin-bottom: 50px
-    }
-
-    .hackathon-row.float-right .hackathon-details {
-        text-align: left;
-        margin-right: 0
-    }
-
-    .hackathon-img-wrapper {
-        float: right
-    }
-
-    .hackathon-img-wrapper img {
-        max-width: 150px
-    }
-
-    .hackathon-details {
-        margin-left: 0
-    }
-
-    .judge .name {
-        font-size: 20px
-    }
-
-    .judge .company {
-        margin-top: 0;
-        font-size: 16px
-    }
-
-    .judge-img {
-        width: 120px;
-        height: 120px
     }
 
     .prize-img-wrapper img {
