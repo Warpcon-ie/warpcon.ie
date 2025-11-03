@@ -146,12 +146,13 @@
 	--icon__defaultElement--104: #464646;
 	--icon__defaultElement--105: #1bb2e9;
 	--icon__defaultElement--106: #cc181e;
-	--icon__defaultElement--107: #3c599b;
+	--icon__defaultElement--107: #0866FF;
 	--icon__defaultElement--108: #ed0103;
 	--icon__defaultElement--109: #017eb4;
 	--icon__defaultElement--110: #3a84df;
 	--icon__defaultElement--111: #ce352c;
 	--icon__defaultElement--112: #ef7c02;
+    --icon__defaultElement--113: #FF0069;
 	--top__box__shadow--113: rgba(255, 255, 255, 0.15);
 	--pricing__bg--118: #4d4d4d;
 	--footer__border__top--119: #e7e7e7;
@@ -3352,6 +3353,10 @@ time {
     margin-right: 4px;
     display: inline-block
 }
+.social-links img {
+    width: 64px;
+    height: 64px;
+}
 
 .btn {
     font-weight: 500;
@@ -3605,10 +3610,6 @@ time {
     fill: var(--icon__defaultElement--99)
 }
 
-.icon-rss:hover {
-    fill: var(--icon__defaultElement--100)
-}
-
 .icon-site:hover {
     fill: var(--icon__defaultElement--101)
 }
@@ -3635,6 +3636,10 @@ time {
 
 .icon-facebook:hover {
     fill: var(--icon__defaultElement--107)
+}
+
+.icon-instagram:hover {
+    fill: var(--icon__defaultElement--113)
 }
 
 .icon-pinterest:hover {
@@ -4191,7 +4196,7 @@ nav li a:hover {
 
 .tickets-table {
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 0 15px;
     border: 1px solid var(--bordered__txt--89);
     max-width: 850px

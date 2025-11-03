@@ -83,9 +83,6 @@ statisticBlock:
 
  - {count: "12", specialCharacter: "", info: "rooms booked", detail: "packed full of games"}
 
-# Latest News Block
-latestNewsTitle: "Latest news"
-
 # Location Block
 locationBlockTitle: "Location"
 eventLocationName: "Devere Hall"
@@ -111,17 +108,31 @@ venueSmallImage3: "orb.jpg"
 venueTitle: "UCC Campus"
 venueFeatures: ["12 rooms", "<b>Devere Hall</b> - Reception & Trader Hall", "Located upstairs in Student Centre"]
 
-# Staff block
+# Sponsor Block
+sponsorTitle: "Sponsors"
+sponsorBlock:
+ - {title: "Chaosium",          image: "chaosium.png"}
+
+
+# Staff Block
 staffInfo:
   header: "Staff at Warpcon help ensure events run smoothly, and are a vital part of the Warpcon team."
   bodyText: "Staff are volunteers, and are not paid for their work, however; they do gain access to the event for free and will receive an exclusive Staff Warpcon T-Shirt. Staff are also eligible for complementary lunch on days they are working."
   link: https://docs.google.com/forms/d/e/1FAIpQLSfYECBFfwOUHZbnk2l59UtM09q6NW9u4IxnQWswULvYkCTTAw/viewform?usp=sf_link
   disabled: false
 
-# Partners Block
-organizersTitle: "Organizers"
-partnersTitle: "Partners"
-partnersC4sponsorsButton: "Become a sponsor"
+# Trader Block
+# TODO: Update with info once I have it
+traderInfo:
+  # header: ""
+  # bodyText: ""
+  # link: ?
+  disabled: true
+
+# Partners Block (PROBABLY USELESS)
+# organizersTitle: "Organizers"
+# partnersTitle: "Partners"
+# partnersC4sponsorsButton: "Become a sponsor"
 
 # Tickets Block
 ticketsTitle: "Pricetable"
@@ -161,23 +172,20 @@ ticketsOffers:
 # Footer
 socialLinks:
  - {link: "https://facebook.com/WARPCON",   icon: "facebook"}
- - {link: "https://instagram.com/WARPCON",  icon: "instagram"}
- - {permalink: "/feed.xml", icon: "rss"}
+ - {link: "https://instagram.com/warpconucc",  icon: "instagram"}
 footerBlocks:
- -
-  title: "Links"
-  links:
+ - title: "Links"
+   links:
     - {link: "https://warpcon.eventbrite.ie",         text: "Eventbrite"}
     - {link: "https://www.facebook.com/WARPCON/",     text: "Facebook"}
     - {link: "https://www.instagram.com/warpconucc/", text: "Instagram"}
 
- -
-  title: "Contacts"
-  links:
-  - {link: "mailto:warpcon@gmail.com",              text: "warpcon@gmail.com"}
-  - {link: "mailto:warpconrpgs@gmail.com",          text: "warpconrpgs@gmail.com"}
-  - {link: "mailto:warpconccgs@gmail.com",          text: "warpconccgs@gmail.com"}
-  - {link: "mailto:warpcontrade@uccsocieties.ie",   text: "warpcontrade@uccsocieties.ie"}
+ - title: "Contacts"
+   links:
+   - {link: "mailto:warpcon@gmail.com",              text: "warpcon@gmail.com"}
+   - {link: "mailto:warpconrpgs@gmail.com",          text: "warpconrpgs@gmail.com"}
+   - {link: "mailto:warpconccgs@gmail.com",          text: "warpconccgs@gmail.com"}
+   - {link: "mailto:warpcontrade@uccsocieties.ie",   text: "warpcontrade@uccsocieties.ie"}
 
   # Past emails. Left for redundancy
    # - {link: "mailto:warpcondirector@gmail.com",   text: "warpcondirector@gmail.com"}
@@ -185,10 +193,10 @@ footerBlocks:
    # - {link: "mailto:warpcontrader@gmail.com",     text: "warpcontrader@gmail.com"}
    # - {link: "mailto:warpconsecretary@gmail.com",  text: "warpconsecretary@gmail.com"}
    # - {link: "mailto:warpconstaff@gmail.com",      text: "warpconstaff@gmail.com"}
- -
-  title: "FAQ"
-  links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+ 
+ - title: "FAQ"
+   links:
+    - {permalink: "/cod/", text: "Code of Conduct"}
 
 # Blog
 blogTitle: "Latest news"
