@@ -72,7 +72,9 @@ aboutBlock:
  - {title: "RPGs",          image: "ttrpgs.jpg",      text: "Many RPGs on Friday, Saturday and Sunday. <a href='https://forms.gle/TG4D5ZxwCaQ26CQk6'>Please sign up for RPG Submissions!</a>"}
  - {title: "CCGs",            image: "ccgs.jpg",        text: "Magic the Gathering, Pokémon, Yu-Gi-Oh and Lorcana events and tournaments"}
  - {title: "LARPs",           image: "larps.jpg",       text: "All weekend, we will be hosting organized LARPs events."}
- - {title: "Wargames",        image: "wargames.jpg",    text: "On Saturday and Sunday, we will be hosting <a href='/assets/40k-2024.pdf'>Warhammer 40k</a> and <a href='/assets/BleedBowl-2024.pdf'>Bloodbowl</a>. As well as LOTR and smaller tournaments"}
+ # Removed reference to specific games
+ # - {title: "Wargames",        image: "wargames.jpg",    text: "On Saturday and Sunday, we will be hosting <a href='/assets/40k-2024.pdf'>Warhammer 40k</a> and <a href='/assets/BleedBowl-2024.pdf'>Bloodbowl</a>."}
+ - {title: "Wargames",        image: "wargames.jpg",    text: "On Saturday and Sunday, we will be hosting some of your favourite wargames!"}
  - {title: "Boardgames",      image: "boardgames.jpg",  text: "Many boardgames will be available for attendees to play at any time during the convention."}
  - {title: "Charity",         image: "charity.jpg",     text: "On Saturday night, we will be holding a charity auction in the New Bar, with proceeds going to Cork Children's hospital"}
 # Statistic Block
@@ -123,16 +125,15 @@ staffInfo:
   disabled: false
 
 # Trader Block
-# TODO: Update with info once I have it
 traderInfo:
-  # header: ""
-  # bodyText: ""
-  # link: ?
-  disabled: true
+  header: "Traders at Warpcon offer a range of goods to attendees"
+  bodyText: "Traders generally sell items related to events run at Warpcon. If you want to sign up to be a trader at Warpcon, sign up below!"
+  link: https://docs.google.com/forms/d/e/1FAIpQLSc75knu0LO-22TF-W-nrkq12hxAuwOEB6uvjUcx6sxP5iwS_Q/viewform?usp=dialog
+  disabled: false
 
 # Tickets Block
 ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets can also be purchased at the reception desk on the day. For college society group bookings, please contact us at <a href='mailto:warpconccgs@uccsocieties.ie'>warpconccgs@uccsocieties.ie</a>."
+ticketsInfo: "Tickets can also be purchased at the reception desk on the day. For college society group bookings, please contact us at <a href='mailto:warpcon@uccsocieties.ie'>warpcon@uccsocieties.ie</a>."
 ticketsOffers:
  -
   name: "Weekend Pass"

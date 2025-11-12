@@ -1,0 +1,27 @@
+<!-- Using same styling as staff for simplicity -->
+<section id="staff">
+    <!-- <div class="overlay solid-overlay"></div> -->
+    <div class="content-wrapper">
+
+        <div class="col-lg-10 col-lg-offset-1">
+
+            <h3>
+                Traders
+            </h3>
+            <h4>{{ site.traderInfo.header }}</h4>
+
+            <p>{{ site.traderInfo.bodyText }}</p>
+
+            {% if site.traderInfo.disabled != true %}
+            <a href="{{ site.traderInfo.link }}" class="btn btn-primary waves-effect waves-button">
+                Trader Form
+            </a>
+            {% else %}
+            <a href="#" class="btn btn-primary waves-effect waves-button">
+                Trader Form (Not available yet)
+            </a>
+            {% endif %}
+        </div>
+    </div>
+
+</section>
