@@ -14,7 +14,7 @@ exclude:
 
 # Site Settings
 title: "Warpcon 36"
-email: "warpcon@gmail.com"
+email: "warpcon@uccsocieties.ie"
 description: "Warpcon 36 is the 36th annual gaming convention in UCC"
 
 # For local development
@@ -178,10 +178,10 @@ footerBlocks:
 
  - title: "Contacts"
    links:
-   - {link: "mailto:warpcon@gmail.com",              text: "warpcon@gmail.com"}
-   - {link: "mailto:warpconrpgs@gmail.com",          text: "warpconrpgs@gmail.com"}
-   - {link: "mailto:warpconccgs@gmail.com",          text: "warpconccgs@gmail.com"}
-   - {link: "mailto:warpcontrade@uccsocieties.ie",   text: "warpcontrade@uccsocieties.ie"}
+   - {link: "mailto:warpcon@uccsocieties.ie",                     text: "warpcon@uccsocieties.ie"}
+   - {link: "mailto:warpconrpgs@uccsocieties.ie",                 text: "warpconrpgs@uccsocieties.ie"}
+   - {link: "mailto:warpconccgs@uccsocieties.ie",                 text: "warpconccgs@uccsocieties.ie"}
+   - {link: "mailto:warpcontrade@uccsocieties.ie",                text: "warpcontrade@uccsocieties.ie"}
 
   # Past emails. Left for redundancy
    # - {link: "mailto:warpcondirector@gmail.com",   text: "warpcondirector@gmail.com"}
