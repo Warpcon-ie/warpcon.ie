@@ -36,6 +36,7 @@
 
     --primary__btn: var(--banner-purple);    /* Background of top hero button, stats text and venue background */
     --disabled__btn: var(--fae-lavender);   /* Disabled fallback for tickets and staff form */
+    --btn__hover: var(--fae-lavender);
 
     --primary__a: var(--banner-purple);  /* General link text colour */
 	--focus__a__1: var(--fae-lavender); /* General link focus colour */
@@ -129,7 +130,6 @@
 	--unicodeSelector__bg--83: #102c6b;
 	--unicodeSelector__bg--84: #6b1204;
 	--unicodeSelector__bg--85: #7f6700;
-	--btn__bg--87: #3266d5;
 	--bordered__txt--88: rgba(255, 255, 255, 0.6);
 	--bordered__txt--89: rgba(51, 51, 51, 0.6);
 	--image__box__shadow--90: rgba(0, 0, 0, 0.75);
@@ -154,7 +154,6 @@
 	--icon__defaultElement--112: #ef7c02;
     --icon__defaultElement--113: #FF0069;
 	--top__box__shadow--113: rgba(255, 255, 255, 0.15);
-	--pricing__bg--118: #4d4d4d;
 	--footer__border__top--119: #e7e7e7;
 	--post__txt--121: #656565;
 	--map__txt--122: #717171;
@@ -3381,7 +3380,7 @@ time {
 .btn-primary.active {
     outline: none;
     color: var(--body__bg);
-    background: var(--btn__bg--87)
+    background: var(--btn__hover)
 }
 
 .content-wrapper {
@@ -4027,11 +4026,6 @@ nav li a:hover {
 
 .pricing-col.pricing-col-featured .button {
     margin-top: 45px;
-    background: var(--disabled__btn)
-}
-
-.pricing-col.pricing-col-featured .button:hover {
-    background: var(--btn__bg--87)
 }
 
 .pricing-col.pricing-col-featured .button.disabled:hover {
@@ -4040,6 +4034,14 @@ nav li a:hover {
 
 .pricing-col .title {
     font-size: 32px;
+    font-weight: 100;
+    margin: 0;
+    padding: 20px 0;
+    background: var(--pricing__bg--117)
+}
+
+.pricing-col .subtitle {
+    font-size: 18px;
     font-weight: 100;
     margin: 0;
     padding: 20px 0;
@@ -4070,7 +4072,7 @@ nav li a:hover {
 }
 
 .pricing-col .button:hover {
-    background: var(--pricing__bg--118)
+    background: var(--btn__hover)
 }
 
 .pricing-col .button.disabled:hover {
@@ -4122,6 +4124,19 @@ nav li a:hover {
     background: var(--primary__btn) !important;
     color: var(--mark__txt--2) !important
 }
+
+.tickets-footer {
+    clear: both;       
+    margin-top: 40px;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 16px;
+}
+.tickets-footer p {
+    margin-bottom: 6px;
+}
+
+
 
 .tickets-2 .ticket-text,
 .tickets-2 .price,
