@@ -1,0 +1,28 @@
+# Footer
+socialLinks:
+ - {link: "https://facebook.com/WARPCON",   icon: "facebook"}
+ - {link: "https://instagram.com/warpconucc",  icon: "instagram"}
+footerBlocks:
+ - title: "Links"
+   links:
+    - {link: "https://warpcon.eventbrite.ie",         text: "Eventbrite"}
+    - {link: "https://www.facebook.com/WARPCON/",     text: "Facebook"}
+    - {link: "https://www.instagram.com/warpconucc/", text: "Instagram"}
+
+ - title: "Contacts"
+   links:
+   - {link: "mailto:warpcon@uccsocieties.ie",                     text: "warpcon@uccsocieties.ie"}
+   - {link: "mailto:warpconrpgs@uccsocieties.ie",                 text: "warpconrpgs@uccsocieties.ie"}
+   - {link: "mailto:warpconccgs@uccsocieties.ie",                 text: "warpconccgs@uccsocieties.ie"}
+   - {link: "mailto:warpcontrade@uccsocieties.ie",                text: "warpcontrade@uccsocieties.ie"}
+
+  # Past emails. Left for redundancy
+   # - {link: "mailto:warpcondirector@gmail.com",   text: "warpcondirector@gmail.com"}
+   # - {link: "mailto:warpconofficers@uccsocieties.ie",   text: "warpconofficers@uccsocieties.ie"}
+   # - {link: "mailto:warpcontrader@gmail.com",     text: "warpcontrader@gmail.com"}
+   # - {link: "mailto:warpconsecretary@gmail.com",  text: "warpconsecretary@gmail.com"}
+   # - {link: "mailto:warpconstaff@gmail.com",      text: "warpconstaff@gmail.com"}
+ 
+ - title: "FAQ"
+   links:
+    - {permalink: "/cod/", text: "Code of Conduct"}

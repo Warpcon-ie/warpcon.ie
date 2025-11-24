@@ -2,11 +2,11 @@
 <section id="tickets" class="tickets">
 	<div class="content-wrapper">
 		<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
-			<h3>{{ site.ticketsTitle }}</h3>
+			<h3>{{ site.data.tickets.ticketsTitle }}</h3>
 
 			<h4 style="margin-bottom: 60px">Single-Day tickets can be bought at reception on the day</h4>
 
-			{% for ticketsOffer in site.ticketsOffers %}
+			{% for ticketsOffer in site.data.tickets.ticketsOffers %}
 			{% assign colWidth = 12 | divided_by: forloop.length %}
 			{% assign check = forloop.index | modulo:2 %}
 			<div class="col-md-{{ colWidth }} col-sm-{{ colWidth }} pricing-col {% if ticketsOffer.featured == true %}pricing-col-featured{% endif %} animated hiding" data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}" data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
@@ -38,8 +38,8 @@
 			</div>
 			{% endfor %}
 			<!-- Warhammer 40k Tournament -->
-			{% if site.wargameDisabled != true %}
-				{% for wg in site.wargameTicketsOffers %}
+			{% if site.data.tickets.wargameDisabled != true %}
+				{% for wg in site.data.tickets.wargameTicketsOffers %}
 				{% assign colWidth = 12 | divided_by: forloop.length %}
 				{% assign check = forloop.index | modulo:2 %}
 				<div class="col-md-{{ colWidth }} col-sm-{{ colWidth }} pricing-col pricing-col-featured animated hiding" data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}" data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
@@ -72,10 +72,10 @@
 				{% endfor %}
 			{% endif %}	
 		</div>
-	</div>
+	
 	<div class="tickets-footer">
-		<p>{{ site.ticketsAsterisk }}</p>
-		<p>{{ site.ticketsInfo }}</p>
+		<p>{{ site.data.tickets.ticketsAsterisk }}</p>
+		<p>{{ site.data.tickets.ticketsInfo }}</p>
 	</div>
 </div>
 

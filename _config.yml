@@ -45,17 +45,6 @@ navigationLinks:
   # - {permalink: "/booklet.pdf", text: "Booklet"}
   # - {permalink: "http://warpcon35.conmaps.com/", text: "Map"}
 
-# bottomNavigationLinks:
-#  - {link: "https://docs.google.com/forms/d/e/1FAIpQLSds7_XGjjyr1WuwuL3QSxhhg1R97B132o_IrN-EuleW2JrMsA/viewform?usp=sf_link", text: "Become a trader"}
-#  - {link: "https://bit.ly/dfua-c4p", text: "Become a vendor"}
-# AS FAR AS I CAN TELL THESE ^ 2 LINES OF CODE ARE USELESS BUT IM NOT DELETING THEM JUST IN CASE
-
-rightNavigationButtons:
-#  - {link: "https://docs.google.com/forms/d/e/1FAIpQLSds7_XGjjyr1WuwuL3QSxhhg1R97B132o_IrN-EuleW2JrMsA/viewform?usp=sf_link", text: "Become a trader"}
-# ONLY THIS LINE OF CODE SEEMS TO BE NEEDED FOR TRADER BUTTON/FORM BUT IM LEAVING THE ONE UNDER JUST IN CASE ^^^
-
-#  - {link: "https://bit.ly/dfua-c4p", text: "Become a vendor"}
-
 # Hero Block
 heroImage: "banner.png" # TODO: Maybe change? Website is not dynamic so phone is fucked
 heroTitle: "Warpcon 36"
@@ -131,106 +120,9 @@ traderInfo:
   link: https://docs.google.com/forms/d/e/1FAIpQLSc75knu0LO-22TF-W-nrkq12hxAuwOEB6uvjUcx6sxP5iwS_Q/viewform?usp=dialog
   disabled: false
 
-# Tickets Block
-# TODO: Update dates if relevant
-ticketsTitle: "Pricetable"
-ticketsAsterisk: "*Some CCG tournaments may have a small additional charge for prize support or draft packs."
-ticketsInfo: "Tickets can also be purchased at the reception desk on the day. For college society group bookings, please contact us at <a href='mailto:warpcon@uccsocieties.ie'>warpcon@uccsocieties.ie</a>."
-ticketsOffers:
-  - name: "Student Weekend Pass"
-    price: "€18"
-    priceCurrency: "EUR"
-    featured: false
-    buyButtonLink: "https://uccsocieties.ticketsolve.com/shows/1173669257/events"
-    buyButtonText: "Buy now!"
-    ticketContentList:
-      - "Admission to Warpcon convention"
-      - "Access to all boardgames, TTRPGs and LARPs"
-      - "Access to CCG Tournaments*"
-    disabled: false
-  - name: "Weekend Pass"
-    price: "€25"
-    priceCurrency: "EUR"
-    featured: true
-    buyButtonLink: "https://uccsocieties.ticketsolve.com/shows/1173669257/events"
-    buyButtonText: "Buy now!"
-    ticketContentList:
-      - "Admission to Warpcon convention"
-      - "Access to all boardgames, TTRPGs and LARPs"
-      - "Access to CCG Tournaments*"
-    #validFrom: "2025-10-01T00:00"
-    #validThrough: "2025-10-23T23:59"
-    disabled: false
-  - name: "Day Pass"
-    price: "€15"
-    priceCurrency: "EUR"
-    featured: true
-    buyButtonLink: "https://uccsocieties.ticketsolve.com/shows/1173669257/events"
-    buyButtonText: "Buy now!"
-    ticketContentList:
-      - "Admission to Warpcon convention"
-      - "Access to all boardgames, TTRPGs and LARPs"
-      - "Access to CCG Tournaments*"
-    #validFrom: "2025-10-01T00:00"
-    #validThrough: "2025-10-23T23:59"
-    disabled: false
-  - name: "Student Day Pass"
-    price: "€10"
-    priceCurrency: "EUR"
-    featured: false
-    buyButtonLink: "https://uccsocieties.ticketsolve.com/shows/1173669257/events"
-    buyButtonText: "Buy now!"
-    ticketContentList:
-      - "Admission to Warpcon convention"
-      - "Access to all boardgames, TTRPGs and LARPs"
-      - "Access to CCG Tournaments*"
-    #validFrom: "2025-10-01T00:00"
-    #validThrough: "2025-10-23T23:59"
-    disabled: false
+# Tickets Block in tickets.yml
 
-wargameDisabled: false
-
-wargameTicketsOffers:
-  - name: "Warhammer 40k Tournament Entry + Weekend Pass"
-    price: "€45"
-    priceCurrency: "EUR"
-    featured: true
-    buyButtonLink: "https://uccsocieties.ticketsolve.com/shows/1173669263/events"
-    buyButtonText: "Buy now!"
-    ticketContentList:
-      - "Admission to Warhammer 40k Tournament"
-      - "Admission to Warpcon convention"
-      - "Access to CCG Tournaments*"
-      - "Access to all boardgames, TTRPGs and LARPs"
-
-# Footer
-socialLinks:
- - {link: "https://facebook.com/WARPCON",   icon: "facebook"}
- - {link: "https://instagram.com/warpconucc",  icon: "instagram"}
-footerBlocks:
- - title: "Links"
-   links:
-    - {link: "https://warpcon.eventbrite.ie",         text: "Eventbrite"}
-    - {link: "https://www.facebook.com/WARPCON/",     text: "Facebook"}
-    - {link: "https://www.instagram.com/warpconucc/", text: "Instagram"}
-
- - title: "Contacts"
-   links:
-   - {link: "mailto:warpcon@uccsocieties.ie",                     text: "warpcon@uccsocieties.ie"}
-   - {link: "mailto:warpconrpgs@uccsocieties.ie",                 text: "warpconrpgs@uccsocieties.ie"}
-   - {link: "mailto:warpconccgs@uccsocieties.ie",                 text: "warpconccgs@uccsocieties.ie"}
-   - {link: "mailto:warpcontrade@uccsocieties.ie",                text: "warpcontrade@uccsocieties.ie"}
-
-  # Past emails. Left for redundancy
-   # - {link: "mailto:warpcondirector@gmail.com",   text: "warpcondirector@gmail.com"}
-   # - {link: "mailto:warpconofficers@uccsocieties.ie",   text: "warpconofficers@uccsocieties.ie"}
-   # - {link: "mailto:warpcontrader@gmail.com",     text: "warpcontrader@gmail.com"}
-   # - {link: "mailto:warpconsecretary@gmail.com",  text: "warpconsecretary@gmail.com"}
-   # - {link: "mailto:warpconstaff@gmail.com",      text: "warpconstaff@gmail.com"}
- 
- - title: "FAQ"
-   links:
-    - {permalink: "/cod/", text: "Code of Conduct"}
+# Footer in footer.yml
 
 # Blog
 blogTitle: "Latest news"
