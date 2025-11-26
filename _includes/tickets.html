@@ -55,7 +55,7 @@
 							{% endfor %}
 						</ul>
 						{% if wg.soldOut == true %}
-						<span class="button disabled">{{ wg.soldOutText }}</span>
+						<span class="button disabled fallback">Sold out!</span>
 						{% elsif wg.disabled != true %}
 						<a class="button" href="{{ wg.buyButtonLink }}" target="_blank">{{
 							wg.buyButtonText }}</a>

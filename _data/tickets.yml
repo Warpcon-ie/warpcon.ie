@@ -56,7 +56,6 @@ ticketsOffers:
     disabled: false
 
 wargameDisabled: false
-
 wargameTicketsOffers:
   - name: "Warhammer 40k Tournament Entry + Weekend Pass"
     price: "€45"
@@ -69,3 +68,4 @@ wargameTicketsOffers:
       - "Admission to Warpcon convention"
       - "Access to CCG Tournaments*"
       - "Access to all boardgames, TTRPGs and LARPs"
+    soldOut: true
