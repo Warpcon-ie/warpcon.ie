@@ -1,5 +1,5 @@
-source "http://rubygems.org"
+source 'http://rubygems.org'
 
-gem 'github-pages'
-
-gem "webrick", "~> 1.8"
+gem 'github-pages', group: :jekyll_plugins
+# gem 'jekyll-sass-converter', '~> 1.5.2'
+gem 'webrick', '~> 1.8'

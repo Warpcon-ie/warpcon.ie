@@ -63,7 +63,7 @@ aboutBlock:
  - {title: "LARPs",           image: "larps.jpg",       text: "All weekend, we will be hosting organized LARPs events."}
  # Removed reference to specific games
  # - {title: "Wargames",        image: "wargames.jpg",    text: "On Saturday and Sunday, we will be hosting <a href='/assets/40k-2024.pdf'>Warhammer 40k</a> and <a href='/assets/BleedBowl-2024.pdf'>Bloodbowl</a>."}
- - {title: "Wargames",        image: "wargames.jpg",    text: "On Saturday and Sunday, we will be hosting some of your favourite wargames!"}
+ - {title: "Wargames",        image: "wargames.jpg",    text: "On Saturday and Sunday, we will be hosting Warhammer 40k."}
  - {title: "Boardgames",      image: "boardgames.jpg",  text: "Many boardgames will be available for attendees to play at any time during the convention."}
  - {title: "Charity",         image: "charity.jpg",     text: "On Saturday night, we will be holding a charity auction in the New Bar, with proceeds going to Cork Children's hospital"}
 # Statistic Block
