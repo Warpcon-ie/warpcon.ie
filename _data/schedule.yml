@@ -2,57 +2,256 @@
 rpgs:
   friday:
     - disabled: True
-      time: "18:00"
+      time: "18:00-21:00"
       games:
-        - system: "Homebrew"
-          title: "Abused Powers"
-          url: "/games/abused-powers"
+        - system: "?"
+          title: "Terraforming Mars"
+          url: "/games/terraforming-mars"
 
-        - system: "Alien"
-          title: "It Waits in the Dark"
-          url: "/games/it-waits-in-the-dark"
+        - system: "?"
+          title: "A Dream of Free Goblinia"
+          url: "/games/a-dream-of-free-goblinia"
+
+        - system: "?"
+          title: "Isaac Newton Must Die"
+          url: "/games/isaac-newton-must-die"
 
 
     - disabled: True
-      time: "22:00"
+      time: "22:00-01:00"
       games:
-        - system: "Cyberpunk RED"
-          title: "Bad Product"
-          url: "/games/bad-product"
+        - system: "?"
+          title: "Spears of the Church"
+          url: "/games/spears-of-the-church"
 
   saturday:
     - disabled: True
-      time: "10:00"
+      time: "10:00-13:00"
       games:
-        - system: "Ryuutama"
-          title: "Letters to a Departed Dragon"
-          url: "/games/letters-to-a-departed-dragon"
+        - system: "?"
+          title: "Urban Vermin"
+          url: "/games/urban-vermin"
 
-        - system: "D&D 5e"
-          title: "Come Away Oh Human Child"
-          url: "/games/come-away-child"
+        - system: "?"
+          title: "We're Dragon Blooded, what's one ghost?"
+          url: "/games/were-dragon-blooded"
+
+        - system: "?"
+          title: "Beginner's Luck"
+          url: "/games/beginners-luck"
+
+        - system: "?"
+          title: "Musical Theater Madness"
+          url: "/games/musical-theater-madness"
+
+        - system: "?"
+          title: "The 23rd letter"
+          url: "/games/the-23rd-letter"
+
+    - disabled: True
+      time: "14:00-17:00"
+      games:
+        - system: "?"
+          title: "One Page One Hour"
+          url: "/games/one-page-one-hour"
+
+        - system: "?"
+          title: "7 Rivers: The Siege of Lok'Then"
+          url: "/games/7-rivers"
+
+        - system: "?"
+          title: "Down the Witches Road"
+          url: "/games/down-the-witches-road"
+
+        - system: "?"
+          title: "The Blight of Lonebridge"
+          url: "/games/the-blight-of-lonebridge"
+
+        - system: "?"
+          title: "A Dream of Free Goblinia"
+          url: "/games/a-dream-of-free-goblinia"
+
+    - disabled: True
+      time: "18:00-21:00"
+      games:
+        - system: "?"
+          title: "We're Dragon Blooded, what's one ghost?"
+          url: "/games/were-dragon-blooded"
+
+        - system: "?"
+          title: "Assembly of the Free Tribes"
+          url: "/games/assembly-of-the-free-tribes"
+
+        - system: "?"
+          title: "Murder Most Fowl"
+          url: "/games/murder-most-fowl"
+
+        - system: "?"
+          title: "Down the Witches Road"
+          url: "/games/down-the-witches-road"
+
+        - system: "?"
+          title: "Musical Theater Madness"
+          url: "/games/musical-theater-madness"
+
+    - disabled: True
+      time: "22:00-01:00"
+      games:
+        - system: "?"
+          title: "Godforsaken: The End of the New World"
+          url: "/games/urban-vermin"
+
+  sunday:
+    - disabled: True
+      time: "10:00-13:00"
+      games:
+        - system: "?"
+          title: "Glimmer Gang: Those Winterland Woes"
+          url: "/games/glimmer-gang"
+
+        - system: "?"
+          title: "Beginner's Luck"
+          url: "/games/beginners-luck"
+
+        - system: "?"
+          title: "Down the Witches Road"
+          url: "/games/down-the-witches-road"
+
+        - system: "?"
+          title: "The 23rd letter"
+          url: "/games/the-23rd-letter"
+
+    - disabled: True
+      time: "14:00-17:00"
+      games:
+        - system: "?"
+          title: "Murder Most Fowl"
+          url: "/games/murder-most-fowl"
 
 ccgs:
   friday:
-    - disabled: True
-      start: "17:00"
-      registration: "17:00"
-      game: "Commander"
-      event: "Constructed Tournament"
+    - disabled: False
+      start: "18:00"
+      game: "Magic: the Gathering"
+      event: "Commander Constructed"
       entry: "€10"
 
-    - disabled: True
+    - disabled: False
+      start: "18:30"
+      game: "Yu-Gi-Oh!"
+      event: "Constructed TCG"
+      entry: "€5"
+    
+    - disabled: False
       start: "19:00"
-      registration: "17:00"
-      game: "Yu-Gi-Oh"
-      event: "Locals"
+      game: "Pokemon TCG"
+      event: "Constructed TCG"
       entry: "€5"
 
+    - disabled: False
+      start: "19:00"
+      game: "Lorcana"
+      event: "Constructed TCG"
+      entry: "€5"
+
+  saturday:
+    - disabled: False
+      start: "11:30"
+      game: "Magic: the Gathering"
+      event: "Commander Constructed"
+      entry: "€10"
+
+    - disabled: False
+      start: "12:00"
+      game: "Yu-Gi-Oh!"
+      event: "Constructed TCG"
+      entry: "€5"
+    
+    - disabled: False
+      start: "13:00"
+      game: "Pokemon TCG"
+      event: "Constructed TCG"
+      entry: "€5"
+
+    - disabled: False
+      start: "14:00"
+      game: "Lorcana"
+      event: "Constructed TCG"
+      entry: "€5"
+
+    - disabled: False
+      start: "16:00"
+      game: "Magic: the Gathering"
+      event: "Jumpstart Draft"
+      entry: "€15"
+
+    - disabled: False
+      start: "16:30"
+      game: "Lorcana"
+      event: "Constructed TCG"
+      entry: "€5"
+
+    - disabled: False
+      start: "17:00"
+      game: "Pokemon TCG"
+      event: "Constructed TCG"
+      entry: "€5"
+
+    - disabled: False
+      start: "18:30"
+      game: "Yu-Gi-Oh!"
+      event: "Win a Box"
+      entry: "€10"
+
+    - disabled: False
+      start: "19:00"
+      game: "Magic: the Gathering"
+      event: "Commander Constructed"
+      entry: "€10"
+
+  sunday:
+    - disabled: False
+      start: "11:00"
+      game: "Magic: the Gathering"
+      event: "Commander Constructed"
+      entry: "€10"
+    
+    - disabled: False
+      start: "12:00"
+      game: "Yu-Gi-Oh!"
+      event: "Commander TCG"
+      entry: "€5"
+
+    - disabled: False
+      start: "13:00"
+      game: "Pokemon TCG"
+      event: "Constructed TCG"
+      entry: "€5"
+
+    - disabled: False
+      start: "14:00"
+      game: "Lorcana"
+      event: "Constructed TCG"
+      entry: "€5"
+
+    - disabled: False
+      start: "15:00"
+      game: "Yu-Gi-Oh!"
+      event: "Constructed TCG"
+      entry: "€5"
+
+    - disabled: False
+      start: "15:30"
+      game: "Magic: the Gathering"
+      event: "Commander Constructed"
+      entry: "€10"
+
+# UPDATE BELOW WHEN WE KNOW
 larps:
   friday:
     - disabled: True
       time: "10:00"
-      title: "7 Rivers: Children of the Khan"
+      title: "7 Rivers: The Siege of Lok'Then"
       url: "/games/7-rivers"
     
     - disabled: True

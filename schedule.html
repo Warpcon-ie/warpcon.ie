@@ -61,9 +61,6 @@ image: banner.png
                     Start Time
                 </td>
                 <td>
-                    Registration Time
-                </td>
-                <td>
                     Game
                 </td>
                 <td>
@@ -82,7 +79,6 @@ image: banner.png
                 {% for session in active_sessions %}
                   <tr>
                     <td>{{ session.start }}</td>
-                    <td>{{ session.registration }}</td>
                     <td>{{ session.game }}</td>
                     <td>{{ session.event }}</td>
                     <td>{{ session.entry }}</td>
