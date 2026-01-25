@@ -11,6 +11,7 @@ exclude:
   - README.md
   - LICENSE.txt
   - CNAME
+  - /_posts/_archive/  # Only exclude archive
 
 # Site Settings
 title: "Warpcon 36"
@@ -20,7 +21,7 @@ description: "Warpcon 36 is the 36th annual gaming convention in UCC"
 # For local development
 baseurl: ""
 url: "https://www.warpcon.ie"
-# permalink: "/games/:title"
+#permalink: "/games/:title"
 
 # Organizer Info
 # Likely useless

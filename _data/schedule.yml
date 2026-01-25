@@ -1,130 +1,120 @@
-# CHANGE THESE. LEAVING HERE FOR TEMPLATE
 rpgs:
   friday:
-    - disabled: True
+    - disabled: False
       time: "18:00-21:00"
       games:
-        - system: "?"
+        - system: "Terraforming Mars RPG"
           title: "Terraforming Mars"
           url: "/games/terraforming-mars"
 
-        - system: "?"
+        - system: "D&D 5e"
           title: "A Dream of Free Goblinia"
           url: "/games/a-dream-of-free-goblinia"
 
-        - system: "?"
+        - system: "Mage the Ascension 20th Anniversary"
           title: "Isaac Newton Must Die"
           url: "/games/isaac-newton-must-die"
 
-
-    - disabled: True
+    - disabled: False
       time: "22:00-01:00"
       games:
-        - system: "?"
+        - system: "D&D 5e"
           title: "Spears of the Church"
           url: "/games/spears-of-the-church"
 
   saturday:
-    - disabled: True
+    - disabled: False
       time: "10:00-13:00"
       games:
-        - system: "?"
+        - system: "Homebrew Card-based System"
           title: "Urban Vermin"
           url: "/games/urban-vermin"
 
-        - system: "?"
+        - system: "Exalted Essence"
           title: "We're Dragon Blooded, what's one ghost?"
           url: "/games/were-dragon-blooded"
 
-        - system: "?"
+        - system: "Pathfinder 2e"
           title: "Beginner's Luck"
           url: "/games/beginners-luck"
 
-        - system: "?"
+        - system: "D&D 5e"
           title: "Musical Theater Madness"
           url: "/games/musical-theater-madness"
 
-        - system: "?"
+        - system: "Arcane Manifold Engine"
           title: "The 23rd letter"
           url: "/games/the-23rd-letter"
 
-    - disabled: True
+    - disabled: False
       time: "14:00-17:00"
       games:
-        - system: "?"
+        - system: "Various"
           title: "One Page One Hour"
           url: "/games/one-page-one-hour"
 
-        - system: "?"
-          title: "7 Rivers: The Siege of Lok'Then"
-          url: "/games/7-rivers"
-
-        - system: "?"
+        - system: "D&D 5e"
           title: "Down the Witches Road"
           url: "/games/down-the-witches-road"
 
-        - system: "?"
+        - system: "Cairn 2E"
           title: "The Blight of Lonebridge"
           url: "/games/the-blight-of-lonebridge"
 
-        - system: "?"
+        - system: "D&D 5e"
           title: "A Dream of Free Goblinia"
           url: "/games/a-dream-of-free-goblinia"
 
-    - disabled: True
+    - disabled: False
       time: "18:00-21:00"
       games:
-        - system: "?"
+        - system: "Exalted Essence"
           title: "We're Dragon Blooded, what's one ghost?"
           url: "/games/were-dragon-blooded"
 
-        - system: "?"
-          title: "Assembly of the Free Tribes"
-          url: "/games/assembly-of-the-free-tribes"
-
-        - system: "?"
+        - system: "Homebrew"
           title: "Murder Most Fowl"
           url: "/games/murder-most-fowl"
 
-        - system: "?"
+        - system: "D&D 5e"
           title: "Down the Witches Road"
           url: "/games/down-the-witches-road"
 
-        - system: "?"
+        - system: "D&D 5e"
           title: "Musical Theater Madness"
           url: "/games/musical-theater-madness"
 
-    - disabled: True
+    - disabled: False
       time: "22:00-01:00"
       games:
-        - system: "?"
+        - system: "Call of Cthulhu 7th Edition"
           title: "Godforsaken: The End of the New World"
-          url: "/games/urban-vermin"
+          url: "/games/godforsaken"
 
   sunday:
-    - disabled: True
+    - disabled: False
       time: "10:00-13:00"
       games:
-        - system: "?"
-          title: "Glimmer Gang: Those Winterland Woes"
-          url: "/games/glimmer-gang"
-
-        - system: "?"
+        - system: "Pathfinder 2e"
           title: "Beginner's Luck"
           url: "/games/beginners-luck"
 
-        - system: "?"
+        - system: "D&D 5e"
           title: "Down the Witches Road"
           url: "/games/down-the-witches-road"
 
-        - system: "?"
+        - system: "Arcane manifold Engine"
           title: "The 23rd letter"
           url: "/games/the-23rd-letter"
 
-    - disabled: True
+    - disabled: False
       time: "14:00-17:00"
       games:
-        - system: "?"
+        - system: "Keep on Believing (Modified Kids on Bikes)"
+          title: "Glimmer Gang: Those Winterland Woes"
+          url: "/games/glimmer-gang"
+
+        - system: "Homebrew"
           title: "Murder Most Fowl"
           url: "/games/murder-most-fowl"
 
@@ -249,22 +239,20 @@ ccgs:
 # UPDATE BELOW WHEN WE KNOW
 larps:
   friday:
-    - disabled: True
-      time: "10:00"
+    - disabled: False
+      time: "14:00-17:00"
+      system: "7 Rivers"
       title: "7 Rivers: The Siege of Lok'Then"
       url: "/games/7-rivers"
-    
-    - disabled: True
-      time: "12:00"
-      title: "Placeholder"
-      url: "placeholder.jpg"
+  saturday:  
+    - disabled: False
+      time: "18:00-21:00"
+      system: "Homebrew"
+      title: "Assembly of the Free Tribes"
+      url: "/games/assembly-of-the-free-tribes"
 
 events:
   friday:
-    - disabled: True
-      time: "18:00"
-      title: "Quiz"
-
     - disabled: True
       time: "20:00"
       title: "Placeholder"
