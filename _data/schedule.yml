@@ -4,7 +4,7 @@ rpgs:
       time: "18:00-21:00"
       games:
         - system: "Terraforming Mars RPG"
-          title: "Terraforming Mars"
+          title: "Terraforming Mars: The First Martian Revolution"
           url: "/games/terraforming-mars"
 
         - system: "D&D 5e"
@@ -39,8 +39,8 @@ rpgs:
           url: "/games/beginners-luck"
 
         - system: "D&D 5e"
-          title: "Musical Theater Madness"
-          url: "/games/musical-theater-madness"
+          title: "Ratnarök"
+          url: "/games/ratnarok"
 
         - system: "Arcane Manifold Engine"
           title: "The 23rd letter"
@@ -236,21 +236,20 @@ ccgs:
       event: "Commander Constructed"
       entry: "€10"
 
-# UPDATE BELOW WHEN WE KNOW
 larps:
-  friday:
+  saturday:  
     - disabled: False
       time: "14:00-17:00"
       system: "7 Rivers"
       title: "7 Rivers: The Siege of Lok'Then"
       url: "/games/7-rivers"
-  saturday:  
     - disabled: False
       time: "18:00-21:00"
       system: "Homebrew"
       title: "Assembly of the Free Tribes"
       url: "/games/assembly-of-the-free-tribes"
 
+# UPDATE WHEN MORE INFO
 events:
   friday:
     - disabled: True
