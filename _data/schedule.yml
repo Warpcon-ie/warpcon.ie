@@ -81,8 +81,8 @@ rpgs:
           url: "down-the-witches-road"
 
         - system: "D&D 5e"
-          title: "Musical Theater Madness"
-          url: "musical-theater-madness"
+          title: "Ratnarök"
+          url: "ratnarok"
 
     - disabled: False
       time: "22:00-01:00"
