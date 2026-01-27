@@ -33,7 +33,8 @@ image: banner.png
                         {% for game in session.games %}
                           <li>
                             <b>{{ game.system }} - </b>
-                            <a href="{{ game.url }}">{{ game.title }}</a>
+                            <!-- Change date to whatever format used for markdown files -->
+                            <a href="/rpg/2025/09/15/{{ game.url }}">{{ game.title }}</a>
                           </li>
                         {% endfor %}
                       </ul>
@@ -107,7 +108,7 @@ image: banner.png
               {% for session in active_sessions %}
                 <tr>
                   <td>{{ session.time }}</td>
-                  <td><a href="{{ session.url }}">{{ session.title }}</a></td>
+                  <td><a href="/larps/2025/09/15/{{ session.url }}">{{ session.title }}</a></td>
                 </tr>
               {% endfor %}
             {% else %}
