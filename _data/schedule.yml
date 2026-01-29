@@ -15,6 +15,10 @@ rpgs:
           title: "Isaac Newton Must Die"
           url: "isaac-newton-must-die"
 
+        - system: "RuneQuest: Glorantha"
+          title: "Cattle Raid!"
+          url: "cattle-raid"
+
     - disabled: False
       time: "22:00-01:00"
       games:
@@ -46,6 +50,10 @@ rpgs:
           title: "The 23rd letter"
           url: "the-23rd-letter"
 
+        - system: "D&D 5e"
+          title: "Beneath a Frozen Sea"
+          url: "beneath-a-frozen-sea"
+
     - disabled: False
       time: "14:00-17:00"
       games:
@@ -65,6 +73,10 @@ rpgs:
           title: "A Dream of Free Goblinia"
           url: "a-dream-of-free-goblinia"
 
+        - system: "RuneQuest: Glorantha"
+          title: "The Broken Door"
+          url: "the-broken-door"
+
     - disabled: False
       time: "18:00-21:00"
       games:
@@ -83,6 +95,10 @@ rpgs:
         - system: "D&D 5e"
           title: "Ratnarök"
           url: "ratnarok"
+
+        - system: "Homebrew"
+          title: "Abused Powers"
+          url: "abused-powers"
 
     - disabled: False
       time: "22:00-01:00"
@@ -106,6 +122,10 @@ rpgs:
         - system: "Arcane manifold Engine"
           title: "The 23rd letter"
           url: "the-23rd-letter"
+        
+        - system: "D&D 5e"
+          title: "Room at the Top"
+          url: "room-at-the-top"
 
     - disabled: False
       time: "14:00-17:00"
@@ -117,6 +137,17 @@ rpgs:
         - system: "Homebrew"
           title: "Murder Most Fowl"
           url: "murder-most-fowl"
+
+        - system: "RuneQuest: Glorantha"
+          title: "A Rough Landing"
+          url: "a-rough-landing"
+
+    - disabled: False
+      time: "18:00-21:00"
+      games:
+        - system: "Homebrew"
+          title: "Orientation Day"
+          url: "orientation-day"
 
 ccgs:
   friday:
@@ -249,6 +280,12 @@ larps:
       title: "Assembly of the Free Tribes"
       url: "assembly-of-the-free-tribes"
 
+  sunday:  
+    - disabled: False
+      time: "10:00-13:00"
+      system: "Homebrew"
+      title: "Instrument of Surrender"
+      url: "instrument-of-surrender"
 # UPDATE WHEN MORE INFO
 events:
   friday:
