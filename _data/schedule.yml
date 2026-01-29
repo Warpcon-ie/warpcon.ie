@@ -19,6 +19,10 @@ rpgs:
           title: "Cattle Raid!"
           url: "cattle-raid"
 
+        - system: "Homebrew"
+          title: "Abused Powers"
+          url: "abused-powers"
+
     - disabled: False
       time: "22:00-01:00"
       games:
@@ -95,10 +99,10 @@ rpgs:
         - system: "D&D 5e"
           title: "Ratnarök"
           url: "ratnarok"
-
+          
         - system: "Homebrew"
-          title: "Abused Powers"
-          url: "abused-powers"
+          title: "Orientation Day"
+          url: "orientation-day"
 
     - disabled: False
       time: "22:00-01:00"
@@ -141,13 +145,6 @@ rpgs:
         - system: "RuneQuest: Glorantha"
           title: "A Rough Landing"
           url: "a-rough-landing"
-
-    - disabled: False
-      time: "18:00-21:00"
-      games:
-        - system: "Homebrew"
-          title: "Orientation Day"
-          url: "orientation-day"
 
 ccgs:
   friday:
