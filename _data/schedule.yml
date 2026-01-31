@@ -78,8 +78,8 @@ rpgs:
           url: "a-dream-of-free-goblinia"
 
         - system: "RuneQuest: Glorantha"
-          title: "The Broken Door"
-          url: "the-broken-door"
+          title: "The Broken Tower"
+          url: "the-broken-tower"
 
     - disabled: False
       time: "18:00-21:00"
